@@ -2,38 +2,45 @@ import { defineConfig } from 'vitepress'
 import { nav, sidebar } from './data/navigation'
 
 const siteUrl = (process.env.SITE_URL || 'https://devfullstackneto.github.io/wiki-moodle-5-2/').replace(/\/?$/, '/')
-const institution = process.env.SITE_INSTITUTION || 'Instituição a confirmar'
 
 export default defineConfig({
   base: '/wiki-moodle-5-2/',
   lang: 'pt-BR',
-  title: 'Portal Moodle 5.2',
-  titleTemplate: ':title | Portal Moodle 5.2',
-  description: 'Base de conhecimento acessível sobre recursos, atividades e práticas no Moodle 5.2.x.',
+  title: 'Portal Moodle 5.2 | CREaD IFMT',
+  titleTemplate: ':title | CREaD IFMT',
+  description: 'Portal de apoio e documentação do Moodle 5.2.x do CREaD IFMT.',
   cleanUrls: false,
   lastUpdated: true,
   sitemap: { hostname: siteUrl },
   head: [
-    ['meta', { name: 'theme-color', content: '#0b5563' }],
+    ['link', { rel: 'icon', type: 'image/jpeg', href: '/wiki-moodle-5-2/branding/cread-ifmt-vertical.jpeg' }],
+    ['meta', { name: 'theme-color', content: '#238636' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:site_name', content: 'Portal Moodle 5.2' }],
+    ['meta', { property: 'og:site_name', content: 'Portal Moodle 5.2 | CREaD IFMT' }],
+    ['meta', { property: 'og:image', content: `${siteUrl}branding/cread-ifmt-horizontal.jpeg` }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }]
   ],
   transformPageData(pageData) {
     const relative = pageData.relativePath.replace(/index\.md$/, '').replace(/\.md$/, '.html')
     const canonical = new URL(relative, siteUrl).toString()
     const title = pageData.frontmatter.title || pageData.title || 'Portal Moodle 5.2'
-    const description = pageData.frontmatter.description || 'Documentação do Moodle 5.2.x.'
+    const socialTitle = title.includes('CREaD IFMT') ? title : `${title} | CREaD IFMT`
+    const description = pageData.frontmatter.description || 'Portal de apoio e documentação do Moodle 5.2.x do CREaD IFMT.'
     pageData.frontmatter.head ??= []
     pageData.frontmatter.head.push(
       ['link', { rel: 'canonical', href: canonical }],
-      ['meta', { property: 'og:title', content: `${title} | Portal Moodle 5.2` }],
+      ['meta', { property: 'og:title', content: socialTitle }],
       ['meta', { property: 'og:description', content: description }],
       ['meta', { property: 'og:url', content: canonical }]
     )
   },
   themeConfig: {
-    siteTitle: 'Portal Moodle 5.2',
+    logo: {
+      light: '/branding/cread-ifmt-horizontal.jpeg',
+      dark: '/branding/cread-ifmt-horizontal.jpeg',
+      alt: 'Instituto Federal de Mato Grosso — Centro de Referência em Educação a Distância'
+    },
+    siteTitle: false,
     nav,
     sidebar,
     search: {
@@ -58,10 +65,6 @@ export default defineConfig({
     sidebarMenuLabel: 'Menu',
     returnToTopLabel: 'Voltar ao topo',
     externalLinkIcon: true,
-    footer: {
-      message: `${institution} · Identidade, contato, políticas e licença aguardam validação institucional.`,
-      copyright: 'Conteúdo de apoio sobre Moodle 5.2.x.'
-    },
     socialLinks: []
   }
 })

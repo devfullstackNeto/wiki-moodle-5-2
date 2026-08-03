@@ -16,6 +16,8 @@ test('busca local, modo de aparência e sitemap estão configurados', () => {
   assert.match(config, /provider:\s*'local'/)
   assert.match(config, /sitemap:/)
   assert.match(config, /darkModeSwitchLabel/)
+  assert.match(config, /cread-ifmt-horizontal\.jpeg/)
+  assert.match(config, /Portal Moodle 5\.2 \| CREaD IFMT/)
 })
 
 test('CSS contém responsividade, foco e redução de movimento', () => {
@@ -50,5 +52,17 @@ test('componentes de aprendizagem aceitam conteúdo detalhado', () => {
   const video = fs.readFileSync(path.join(base, 'VideoSection.vue'), 'utf8')
   for (const prop of ['number', 'description', 'action', 'expected', 'tip', 'alert', 'screenshot', 'caption', 'alt']) assert.match(step, new RegExp(`${prop}\\?`))
   assert.match(screenshot, /framing\?/)
-  for (const prop of ['status', 'objective', 'script', 'transcript']) assert.match(video, new RegExp(`${prop}\\?`))
+  for (const prop of ['status', 'objective', 'script', 'transcript', 'provider', 'url', 'thumbnail', 'topics']) assert.match(video, new RegExp(`${prop}\\?`))
+  for (const provider of ['youtube', 'vimeo', 'mp4', 'institutional']) assert.match(video, new RegExp(`'${provider}'`))
+})
+
+test('identidade institucional possui marcas e rodapé global', () => {
+  const branding = path.join(docsRoot, 'public/branding')
+  for (const file of ['cread-ifmt-horizontal.jpeg', 'cread-ifmt-vertical.jpeg']) {
+    assert.ok(fs.existsSync(path.join(branding, file)), `${file} ausente`)
+  }
+  const layout = fs.readFileSync(path.join(docsRoot, '.vitepress/theme/Layout.vue'), 'utf8')
+  const footer = fs.readFileSync(path.join(docsRoot, '.vitepress/theme/components/InstitutionalFooter.vue'), 'utf8')
+  assert.match(layout, /<InstitutionalFooter/)
+  assert.match(footer, /Centro de Referência em Educação a Distância/)
 })

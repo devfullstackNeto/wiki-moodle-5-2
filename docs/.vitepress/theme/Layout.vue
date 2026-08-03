@@ -38,4 +38,5 @@ watch(() => route.path, async () => { await nextTick(); updateMainLandmark() })
       <LastUpdated :date="frontmatter.lastReviewed" :status="frontmatter.status" />
     </template>
   </Layout>
+  <InstitutionalFooter />
 </template>

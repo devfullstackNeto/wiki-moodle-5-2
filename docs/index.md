@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Portal Moodle 5.2
+title: Portal Moodle 5.2 | CREaD IFMT
 titleTemplate: false
 description: Central de aprendizagem para ensinar, aprender, acompanhar e organizar cursos no Moodle 5.2.x.
 category: Início
@@ -155,9 +155,4 @@ lastReviewed: 2026-08-03
   </div>
 </section>
 
-<ValidationNotice>A versão corretiva, o endereço do Moodle, a identidade visual, os contatos, os plugins, o tema e os fluxos SUAP do IFMT ainda precisam de validação institucional.</ValidationNotice>
-
-<footer class="institutional-footer">
-  <strong>Portal Moodle 5.2</strong>
-  <p>Base de conhecimento sobre o Moodle 5.2.x preparada para receber identidade, contato, política editorial e oferta de formação validados pela instituição.</p>
-</footer>
+<ValidationNotice>A versão corretiva e o endereço do Moodle institucional, os contatos, os plugins, o tema e os fluxos SUAP ainda precisam de validação pelo IFMT.</ValidationNotice>

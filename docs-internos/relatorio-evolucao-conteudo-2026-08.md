@@ -55,6 +55,6 @@ O script `validate-learning` verifica:
 - Produzir ou incorporar os 105 vídeos planejados; todas as páginas já possuem objetivo e roteiro.
 - Confirmar tema, pacote de idioma, versão corretiva 5.2.x, permissões e capacidades.
 - Validar serviços e bibliotecas de BigBlueButton, H5P, LTI, SCORM e conversão/anotação de documentos.
-- Validar identidade, contatos, políticas editoriais e integrações com o SUAP.
+- Validar contatos, políticas editoriais e integrações com o SUAP; a identidade visual CREaD IFMT já utiliza os arquivos institucionais fornecidos.
 
 Essas pendências não impedem o build nem a navegação. Elas permanecem explícitas no conteúdo para impedir que variações institucionais sejam apresentadas como universais.

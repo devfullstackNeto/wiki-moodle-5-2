@@ -5,7 +5,7 @@
 1. Instale Node.js 20 ou mais recente.
 2. Na raiz do portal, execute `npm install`.
 3. Copie `.env.example` para `.env` e defina `SITE_URL` com a URL HTTPS pública, sem barra final.
-4. Substitua identidade, contato, políticas, licença e arquivos de mídia somente após aprovação institucional.
+4. Atualize contatos, políticas, licença e arquivos de mídia somente após aprovação institucional; preserve os arquivos autorizados da marca CREaD IFMT.
 5. Execute `npm run check` e `npm run build`.
 
 ## Publicar
