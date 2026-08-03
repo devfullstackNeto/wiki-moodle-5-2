@@ -20,17 +20,24 @@ lastReviewed: 2026-08-03
 
 Nenhum relatório isolado explica a aprendizagem. Verifique dados, converse com o estudante e registre somente a informação necessária.
 
-<ValidationNotice>Confirme nomes, rotas, capacidades e opções no Moodle institucional antes de publicar instruções passo a passo.</ValidationNotice>
+<ValidationNotice>Confirme no Moodle institucional os nomes, caminhos, capacidades e opções que afetam **Acompanhar um estudante** antes de publicar esta orientação.</ValidationNotice>
 
-## Decisões essenciais
 
-- Defina a finalidade e quem será afetado.
-- Verifique permissões, datas, grupos e dados envolvidos.
-- Faça a menor alteração necessária e preserve o histórico.
-- Teste com o perfil destinatário e registre o resultado.
+<ExampleBox title="Exemplo de aplicação">Em um curso de demonstração, defina a pergunta de acompanhamento e depois consulte evidências pertinentes. Antes de trabalhar com dados reais, registre a próxima ação e registre o resultado.</ExampleBox>
 
-<ExampleBox>Em um curso de demonstração, aplique esta orientação com dados fictícios, compare a visão do professor e do estudante e só então replique no curso real.</ExampleBox>
+<ScreenshotPlaceholder id="ACOMPANHAMENTO-INDIVIDUAL-01" title="Acompanhar um estudante: tela principal" description="Captura mínima necessária para apoiar acompanhar um estudante, após validação institucional." alt="Tela do Moodle 5.2 relacionada a acompanhar um estudante." src="" framing="Enquadrar a área descrita com rótulos e controles relevantes, usando somente dados fictícios." />
 
-<ScreenshotPlaceholder id="ACOMPANHAMENTO-INDIVIDUAL-01" title="Tela de referência" description="Captura mínima necessária para apoiar acompanhar um estudante, após validação institucional." alt="Tela do Moodle 5.2 relacionada a acompanhar um estudante." src="" />
+<Checklist :items='["Defina a pergunta de acompanhamento foi concluído e conferido","Consulte evidências pertinentes foi concluído e conferido","Compare contexto e período foi concluído e conferido","Registre a próxima ação foi concluído e conferido"]' />
 
-<Checklist :items='[&quot;Finalidade registrada&quot;, &quot;Impacto sobre estudantes verificado&quot;, &quot;Nomes e opções confirmados no ambiente&quot;, &quot;Teste realizado sem dados pessoais&quot;]' />
+## Amplie esta orientação
+
+<StepByStep>
+  <StepItem number="1" title="Defina a pergunta de acompanhamento" description="Escolha qual ação ou dificuldade precisa ser compreendida." expected="A decisão “Defina a pergunta de acompanhamento” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="2" title="Consulte evidências pertinentes" description="Combine participação, conclusão, entregas, notas e comunicação autorizada." expected="A decisão “Consulte evidências pertinentes” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="3" title="Compare contexto e período" description="Evite interpretar um evento isolado fora do prazo ou da atividade." expected="A decisão “Compare contexto e período” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="4" title="Registre a próxima ação" description="Faça contato respeitoso, ofereça suporte e limite o compartilhamento." expected="A decisão “Registre a próxima ação” foi registrada e conferida no perfil destinatário." />
+</StepByStep>
+
+<VideoSection title="Acompanhar um estudante — demonstração guiada" description="Combine participação, conclusão, notas e contexto com intervenção humana." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina a pergunta de acompanhamento","Consulte evidências pertinentes","Compare contexto e período","Registre a próxima ação"]' />
+
+<RelatedContent :items='[{"title":"Consultar participantes","href":"/participantes/consultar.html","description":"Filtre pessoas, status e grupos sem inferir aprendizagem apenas pelo último acesso."},{"title":"Criar e usar grupos no curso","href":"/participantes/grupos.html","description":"Organize participantes, modalidades e agrupamentos sem confundir equipe, acesso e inscrição."},{"title":"Visão geral de participantes","href":"/participantes/","description":"Compare outras orientações desta área."}]' />

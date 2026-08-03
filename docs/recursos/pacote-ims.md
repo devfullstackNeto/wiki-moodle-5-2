@@ -37,14 +37,14 @@ Use Pacote de conteúdo IMS quando você recebeu um pacote IMS válido de fonte 
 <ConfigurationTable :rows='[{&quot;field&quot;: &quot;Nome&quot;, &quot;purpose&quot;: &quot;Identifica o pacote&quot;, &quot;impact&quot;: &quot;Informe origem e finalidade.&quot;}, {&quot;field&quot;: &quot;Pacote&quot;, &quot;purpose&quot;: &quot;Recebe o ZIP IMS&quot;, &quot;impact&quot;: &quot;Um ZIP comum não é suficiente.&quot;}, {&quot;field&quot;: &quot;Arquivamento&quot;, &quot;purpose&quot;: &quot;Controla versões do pacote&quot;, &quot;impact&quot;: &quot;Disponibilidade depende do ambiente.&quot;}, {&quot;field&quot;: &quot;Aparência&quot;, &quot;purpose&quot;: &quot;Define navegação e exibição&quot;, &quot;impact&quot;: &quot;Teste em navegadores e celular.&quot;}]' />
 
 <StepByStep>
-<StepItem title="Defina nome e propósito" result="O estudante entende o que encontrará e por que deve acessar.">Escreva um nome descritivo e uma orientação compatível com a tarefa de aprendizagem.</StepItem>
-<StepItem title="Adicione e configure o conteúdo" result="O recurso apresenta o material com o comportamento esperado.">Preencha os campos próprios de Pacote de conteúdo IMS e revise as opções que alteram acesso, aparência ou conclusão.</StepItem>
-<StepItem title="Teste como estudante" result="O conteúdo abre, é legível e não expõe informação indevida.">Salve, abra em tela estreita e teste com o perfil destinatário quando houver conta autorizada.</StepItem>
+<StepItem title="Defina nome e propósito de Pacote de conteúdo IMS" result="O estudante entende o que encontrará e por que deve acessar.">Escreva um nome descritivo e uma orientação compatível com a tarefa de aprendizagem.</StepItem>
+<StepItem title="Configure o conteúdo próprio de Pacote de conteúdo IMS" result="O recurso apresenta o material com o comportamento esperado.">Preencha os campos próprios de Pacote de conteúdo IMS e revise as opções que alteram acesso, aparência ou conclusão.</StepItem>
+<StepItem title="Teste Pacote de conteúdo IMS como estudante" result="O conteúdo abre, é legível e não expõe informação indevida.">Salve, abra em tela estreita e teste com o perfil destinatário quando houver conta autorizada.</StepItem>
 </StepByStep>
 
 <ExampleBox>Disponibilize um objeto educacional institucional exportado como IMS, testando todos os links antes da publicação.</ExampleBox>
 
-<ScreenshotPlaceholder id="PACOTE-IMS-CONFIG-01" title="Configuração de Pacote de conteúdo IMS" description="Configuração do Pacote IMS com arquivo selecionado e opções de aparência." alt="Configuração do Pacote IMS com arquivo selecionado e opções de aparência." src="" />
+<ScreenshotPlaceholder id="PACOTE-IMS-CONFIG-01" title="Configuração de Pacote de conteúdo IMS" description="Configuração do Pacote IMS com arquivo selecionado e opções de aparência." alt="Configuração do Pacote IMS com arquivo selecionado e opções de aparência." src="" framing="Enquadrar a área descrita com rótulos e controles relevantes, usando somente dados fictícios." />
 
 <BestPractices>
 

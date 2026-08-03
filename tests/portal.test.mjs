@@ -40,5 +40,15 @@ test('não há scripts externos de analytics', () => {
 
 test('scripts solicitados estão documentados no package', () => {
   const pkg = JSON.parse(fs.readFileSync(path.join(projectRoot, 'package.json'), 'utf8'))
-  for (const name of ['dev','build','preview','lint','test','validate','check-links']) assert.ok(pkg.scripts[name], `${name} ausente`)
+  for (const name of ['dev','build','preview','lint','test','validate','validate-learning','check-links','audit-content']) assert.ok(pkg.scripts[name], `${name} ausente`)
+})
+
+test('componentes de aprendizagem aceitam conteúdo detalhado', () => {
+  const base = path.join(docsRoot, '.vitepress/theme/components')
+  const step = fs.readFileSync(path.join(base, 'StepItem.vue'), 'utf8')
+  const screenshot = fs.readFileSync(path.join(base, 'ScreenshotPlaceholder.vue'), 'utf8')
+  const video = fs.readFileSync(path.join(base, 'VideoSection.vue'), 'utf8')
+  for (const prop of ['number', 'description', 'action', 'expected', 'tip', 'alert', 'screenshot', 'caption', 'alt']) assert.match(step, new RegExp(`${prop}\\?`))
+  assert.match(screenshot, /framing\?/)
+  for (const prop of ['status', 'objective', 'script', 'transcript']) assert.match(video, new RegExp(`${prop}\\?`))
 })

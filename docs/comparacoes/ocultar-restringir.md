@@ -21,4 +21,26 @@ lastReviewed: 2026-08-03
 
 <TipBox title="Decisão rápida">Ocultar para indisponibilidade; restringir para regra pedagógica.</TipBox>
 
-<ValidationNotice>Confirme se as duas opções estão habilitadas e quais relatórios e permissões existem no ambiente institucional.</ValidationNotice>
+<ValidationNotice>Confirme no ambiente institucional a disponibilidade, os relatórios e as permissões das opções comparadas em **Ocultar × restringir acesso**.</ValidationNotice>
+
+## Amplie esta orientação
+
+<VideoSection title="Ocultar × restringir acesso — demonstração guiada" description="Compare Ocultar e Restringir acesso antes de decidir." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Apresentar Ocultar","Apresentar Restringir","Comparar o cenário","Testar a decisão"]' />
+
+<RelatedContent :items='[{"title":"Lição × Livro","href":"/comparacoes/licao-livro.html","description":"Compare Lição e Livro antes de decidir."},{"title":"Página × Livro","href":"/comparacoes/pagina-livro.html","description":"Compare Página e Livro antes de decidir."},{"title":"Visão geral de comparacoes","href":"/comparacoes/","description":"Compare outras orientações desta área."}]' />
+
+## Cenário de decisão
+
+<ExampleBox>Um rascunho ainda não deve aparecer; uma avaliação pronta deve abrir somente na data e para o grupo correto.</ExampleBox>
+
+## Como decidir
+
+- Escolha **Ocultar** quando sua característica principal for indispensável ao objetivo.
+- Escolha **Restringir** quando a experiência oferecida pela segunda opção reduzir etapas ou barreiras.
+- Combine as opções de **Ocultar × restringir acesso** somente quando cada uma tiver função distinta e explícita.
+
+<ImportantBox title="Decisão recomendada">Oculte durante preparação e restrinja quando a disponibilidade depender de condição explícita.</ImportantBox>
+
+<Checklist :items='["A ação do estudante foi definida","A característica exclusiva de Ocultar é necessária","A característica exclusiva de Restringir é necessária","A opção escolhida foi testada no perfil destinatário"]' />
+
+<RelatedContent :items='[{"title":"Guia completo: Ocultar","href":"/organizacao-do-curso/visibilidade-e-acesso.html","description":"Veja configuração, teste e boas práticas."},{"title":"Guia completo: Restringir","href":"/organizacao-do-curso/visibilidade-e-acesso.html","description":"Compare a experiência completa."}]' />

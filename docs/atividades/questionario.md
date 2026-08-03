@@ -1,12 +1,12 @@
 ---
 title: Configurar a atividade Questionário
-description: Monte avaliações com questões reutilizáveis, tentativas e feedback controlados.
-category: Atividades
+description: Combine banco de questões, tentativas, comportamento, revisão e segurança em uma avaliação testada.
+category: Atividade
 audience:
   - Professor
   - Tutor
 level: Avançado
-readingTime: 10 min
+readingTime: 18 min
 tags:
   - avaliação
   - questões
@@ -14,55 +14,121 @@ tags:
 moodleVersion: 5.2.x
 status: em-revisao
 lastReviewed: 2026-08-03
+pageType: atividade
 ---
-<ObjectiveCard>Planejar e configurar Questionário com coerência entre objetivo, participação, acompanhamento e avaliação.</ObjectiveCard>
 
-## O que esta atividade resolve
+<ObjectiveCard>Ao final, você conseguirá criar um **Questionário**, adicionar questões, definir tentativas e feedback, controlar o que aparece em cada momento e executar uma tentativa de teste antes da aplicação.</ObjectiveCard>
 
-Monte avaliações com questões reutilizáveis, tentativas e feedback controlados. Seu foco principal é **avaliação e prática**. Antes de escolher, confirme se essa interação é necessária e se existe alternativa mais simples.
+## Finalidade pedagógica
 
-<ValidationNotice>Atividade padrão do Moodle 5.2. A disponibilidade pode ser alterada pelo administrador; serviços, bibliotecas, capacidades e rótulos do ambiente institucional precisam ser confirmados.</ValidationNotice>
+Questionário reúne questões armazenadas no Banco de questões e registra tentativas. Pode apoiar diagnóstico, prática com feedback, autoavaliação ou prova. Dependendo dos tipos de questão, parte da correção é automática; respostas discursivas exigem avaliação manual.
+
+A qualidade do Questionário depende mais das questões e da política de tentativa do que da quantidade de configurações. Cada opção deve responder a uma decisão: **o que medir, quando responder, quantas vezes tentar, quando receber retorno e como tratar exceções**.
+
+## Quando utilizar
+
+- Diagnóstico antes de uma unidade, sem peso ou com finalidade formativa.
+- Prática repetida com feedback por alternativa e nova tentativa.
+- Avaliação com combinação de questões objetivas e discursivas.
+- Sorteio controlado de questões a partir de categorias bem mantidas.
+
+## Quando não utilizar
+
+- Para produção extensa com arquivo, use [Tarefa](./tarefa.html).
+- Para debate, argumentação e interação entre participantes, use [Fórum](./forum.html).
+- Para conteúdo interativo sem necessidade de item formal no Livro de notas, compare com [H5P](./h5p.html).
+- Para pesquisa de opinião sem resposta correta, considere [Feedback](./feedback.html).
+
+<ExampleBox title="Exemplo: quiz formativo com nova tentativa">Crie oito questões sobre segurança: cinco de múltipla escolha com feedback por alternativa, duas de associação e uma discursiva curta. Permita duas tentativas, use a maior nota, mostre feedback imediato sem revelar todas as respostas corretas antes do encerramento e proponha nova leitura conforme o erro.</ExampleBox>
 
 <Prerequisites>
 
-- Objetivo de aprendizagem e evidência esperada definidos.
-- Papel com capacidade para adicionar e configurar a atividade.
-- Datas, grupos, critérios de conclusão e regra de avaliação planejados.
-- Conta ou recurso de teste para conferir a visão do estudante.
+- Matriz de objetivos e conteúdo que o Questionário realmente deve avaliar.
+- Questões revisadas, com resposta, nota, feedback e acessibilidade verificados.
+- Política definida para tentativas, atraso, exceções e divulgação de resultados.
+- Conta de estudante de teste e tempo para percorrer todas as variações relevantes.
 
 </Prerequisites>
 
-<NavigationPath path="No curso → ativar o modo de edição → adicionar uma atividade ou recurso → Questionário" />
+<NavigationPath path="Curso → ativar modo de edição → seção desejada → adicionar uma atividade ou recurso → Questionário" />
 
-## Configurações essenciais
-
-<ConfigurationTable :rows='[{&quot;field&quot;: &quot;Duração&quot;, &quot;purpose&quot;: &quot;Define abertura, encerramento e limite de tempo&quot;, &quot;impact&quot;: &quot;Conflitos de horário exigem exceções.&quot;}, {&quot;field&quot;: &quot;Nota&quot;, &quot;purpose&quot;: &quot;Controla tentativas e método de avaliação&quot;, &quot;impact&quot;: &quot;Defina nota para aprovação quando necessária.&quot;}, {&quot;field&quot;: &quot;Layout&quot;, &quot;purpose&quot;: &quot;Distribui questões por página e navegação&quot;, &quot;impact&quot;: &quot;Impacta carga cognitiva e revisão.&quot;}, {&quot;field&quot;: &quot;Comportamento&quot;, &quot;purpose&quot;: &quot;Define quando e como respostas são processadas&quot;, &quot;impact&quot;: &quot;O modo escolhido muda a experiência.&quot;}, {&quot;field&quot;: &quot;Opções de revisão&quot;, &quot;purpose&quot;: &quot;Controlam o que aparece em cada momento&quot;, &quot;impact&quot;: &quot;Evite revelar respostas antes do encerramento.&quot;}, {&quot;field&quot;: &quot;Restrições&quot;, &quot;purpose&quot;: &quot;Podem aplicar senha, rede e segurança&quot;, &quot;impact&quot;: &quot;Não substituem supervisão e desenho adequado.&quot;}]' />
-
-<StepByStep>
-<StepItem title="Escreva instruções verificáveis" result="O estudante sabe o que fazer, como, até quando e como será avaliado.">Inclua propósito, produto esperado, critérios, prazo, suporte e alternativa acessível.</StepItem>
-<StepItem title="Configure a interação" result="As opções da atividade correspondem ao desenho pedagógico.">Revise cada campo pelo impacto na participação, não pela configuração padrão.</StepItem>
-<StepItem title="Conecte avaliação e acompanhamento" result="Nota, conclusão e relatórios registram a evidência pretendida.">Teste tentativas, grupos, feedback e Livro de notas quando aplicáveis.</StepItem>
-<StepItem title="Faça uma tentativa de teste" result="O fluxo completo funciona antes da abertura para a turma.">Use dados fictícios, tela estreita e o papel do participante.</StepItem>
+<StepByStep introduction="Primeiro configure o contêiner do Questionário; depois adicione e organize as questões.">
+  <StepItem number="1" title="Planeje a avaliação" description="Relacione cada objetivo a uma evidência e escolha o tipo de questão adequado." expected="O conjunto cobre o que deve ser avaliado sem depender apenas de memorização." />
+  <StepItem number="2" title="Crie o Questionário" description="Adicione a atividade, informe Nome e Descrição e escreva instruções sobre tentativas, navegação, materiais e suporte." expected="O estudante conhece as regras antes de iniciar uma tentativa." />
+  <StepItem number="3" title="Configure abertura, fechamento e tempo" description="Defina janela de acesso e limite de tempo somente quando necessários." action="Escolha o comportamento ao esgotar o tempo e considere conexão, acessibilidade e possíveis exceções." expected="A tentativa pode ser iniciada e finalizada dentro de uma política comunicada." />
+  <StepItem number="4" title="Defina tentativas e nota" description="Escolha número de tentativas, método de avaliação e nota para aprovação quando aplicável." expected="O resultado no Livro de notas corresponde à estratégia formativa ou somativa." />
+  <StepItem number="5" title="Configure leiaute e comportamento" description="Defina quantas questões aparecem por página, navegação e comportamento das questões." action="Avalie embaralhamento e feedback imediato, adiado ou interativo conforme o objetivo." expected="A interface reduz carga desnecessária e o feedback aparece no momento planejado." />
+  <StepItem number="6" title="Controle as opções de revisão" description="Decida o que o estudante verá durante, logo após, enquanto o Questionário estiver aberto e depois do fechamento." action="Revise tentativa, acerto, notas, feedback e resposta correta em cada coluna de tempo." expected="Nenhuma resposta ou feedback é revelado antes do momento apropriado." alert="As opções de revisão são uma das principais fontes de exposição acidental de respostas." />
+  <StepItem number="7" title="Adicione questões" description="Salve e exiba, abra a edição do Questionário e adicione nova questão, questão do banco ou questão aleatória." action="Defina nota de cada questão, paginação e total; mantenha categorias e versões reconhecíveis." expected="O Questionário contém o conjunto correto e a nota máxima está coerente." />
+  <StepItem number="8" title="Configure restrições, grupos e conclusão" description="Use senha, endereço de rede ou outras restrições apenas dentro da política institucional; aplique exceções por usuário ou grupo quando necessário." expected="Participantes autorizados acessam as condições adequadas e a conclusão representa tentativa, nota ou aprovação planejada." />
+  <StepItem number="9" title="Visualize como professor" description="Use a pré-visualização para responder todas as questões e verificar feedback, pontuação e navegação." expected="Erros de conteúdo, resposta, nota ou ramificação são corrigidos antes da aplicação." />
+  <StepItem number="10" title="Faça uma tentativa como estudante" description="Use conta de teste e simule envio, tempo, interrupção, revisão e segunda tentativa." action="Confira também calendário, conclusão e Livro de notas." expected="O fluxo real coincide com a pré-visualização e com as instruções publicadas." />
+  <StepItem number="11" title="Acompanhe resultados com cautela" description="Depois da aplicação, revise tentativas, respostas, análise de itens e questões que exigem correção manual." expected="O feedback é liberado corretamente e problemas são tratados sem apagar evidências necessárias." />
 </StepByStep>
 
-<ExampleBox>Crie um quiz formativo com duas tentativas, questões embaralhadas e feedback por alternativa; libere a resposta correta após a segunda tentativa.</ExampleBox>
-
-<ScreenshotGallery label="Capturas planejadas para Questionário">
-<ScreenshotPlaceholder id="QUESTIONARIO-CONFIG-01" title="Configurações principais" description="Tela de configuração de Questionário com as seções que alteram a experiência do estudante." alt="Configuração da atividade Questionário no Moodle 5.2." src="" />
-<ScreenshotPlaceholder id="QUESTIONARIO-RESULT-02" title="Resultado para o participante" description="Visualização de teste da atividade pronta, sem dados reais." alt="Atividade Questionário vista por uma conta de estudante de teste." src="" />
+<ScreenshotGallery label="Capturas planejadas para a atividade Questionário">
+  <ScreenshotPlaceholder id="QUESTIONARIO-TEMPO-01" title="Tempo e tentativas" description="Configuração com abertura, fechamento, limite de tempo, tentativas permitidas e método de avaliação." framing="Usar datas fictícias e enquadrar as seções Tempo e Nota." alt="Configuração de tempo, tentativas e nota de um Questionário." />
+  <ScreenshotPlaceholder id="QUESTIONARIO-REVISAO-02" title="Matriz de opções de revisão" description="Seção de revisão com os quatro momentos e as opções de tentativa, acerto, nota, feedback e resposta correta." framing="Capturar a matriz inteira com configurações de demonstração, sem recomendar uma combinação universal." alt="Opções de revisão de um Questionário no Moodle 5.2." />
+  <ScreenshotPlaceholder id="QUESTIONARIO-QUESTOES-03" title="Edição das questões" description="Tela de edição com três questões fictícias, notas, paginação e menu para adicionar." framing="Mostrar tipos variados e remover qualquer conteúdo de avaliação real." alt="Tela de edição de um Questionário com questões e pontuações." />
 </ScreenshotGallery>
 
-<AvoidThis>
+## Principais configurações
 
-- Publicar sem instrução ou critério observável.
-- Presumir que acesso ou clique comprova aprendizagem.
-- Usar dados reais em capturas, testes ou demonstrações.
-- Alterar configuração depois que há participação sem avaliar o impacto.
+<ConfigurationTable :rows='[
+  {"field":"Abrir e fechar o Questionário","purpose":"Define a janela em que tentativas podem ser iniciadas.","impact":"Não substitui instrução de prazo; exceções podem ser necessárias."},
+  {"field":"Limite de tempo","purpose":"Controla a duração de cada tentativa.","impact":"Pode criar barreira e depende de tratamento ao expirar; use quando houver justificativa."},
+  {"field":"Tentativas permitidas","purpose":"Define quantas vezes cada estudante pode responder.","impact":"Uma tentativa atende prova; várias podem apoiar prática e recuperação."},
+  {"field":"Método de avaliação","purpose":"Escolhe como tentativas múltiplas formam a nota.","impact":"Maior, média, primeira ou última tentativa produzem incentivos diferentes."},
+  {"field":"Leiaute e navegação","purpose":"Distribui questões por página e controla sequência.","impact":"Muitas questões por página aumentam rolagem; navegação sequencial impede retorno."},
+  {"field":"Comportamento das questões","purpose":"Define quando respostas são avaliadas e feedback aparece.","impact":"Interativo, imediato ou adiado transformam a atividade pedagógica."},
+  {"field":"Opções de revisão","purpose":"Controlam quais informações aparecem em cada momento.","impact":"Combinação inadequada pode revelar resposta correta enquanto outras pessoas ainda realizam a prova."},
+  {"field":"Restrições extras","purpose":"Podem aplicar senha, rede e outros controles disponíveis.","impact":"Não garantem integridade sozinhas e podem bloquear participantes legítimos."},
+  {"field":"Nota para aprovação","purpose":"Define o limiar usado por Livro de notas e conclusão.","impact":"Para conclusão por aprovação, também é preciso combinar as condições apropriadas."},
+  {"field":"Conclusão","purpose":"Pode exigir tentativa, nota, aprovação ou esgotamento de tentativas, conforme opções.","impact":"Questões discursivas podem atrasar condições que dependem de nota."}
+]' />
+
+## Banco de questões e manutenção
+
+As questões existem separadamente no Banco de questões e podem ser reutilizadas. Organize categorias por finalidade, mantenha nomes reconhecíveis e revise versões antes de inserir questões aleatórias. Alterar uma questão usada em tentativas existentes exige cautela; preserve a rastreabilidade e consulte as opções disponíveis em vez de apagar registros.
+
+<WarningBox title="Questões discursivas">Uma tentativa com questão discursiva pode permanecer sem resultado final até a correção manual. Planeje conclusão, divulgação de notas e prazo de feedback considerando esse intervalo.</WarningBox>
+
+<BestPractices>
+
+- Escreva enunciados completos e alternativas plausíveis, sem pistas gramaticais ou visuais.
+- Ofereça feedback que explique o raciocínio, não apenas “certo” ou “errado”.
+- Use questões aleatórias apenas em categorias equivalentes em objetivo e dificuldade.
+- Faça pré-visualização e tentativa real; elas revelam problemas diferentes.
+- Tenha plano para queda de conexão e registre exceções sem expor justificativas pessoais.
+
+</BestPractices>
+
+<AvoidThis title="Erros comuns">
+
+- Revelar respostas corretas imediatamente em uma avaliação ainda aberta.
+- Usar limite de tempo sem testar acessibilidade e infraestrutura.
+- Misturar questões de pesos muito diferentes sem revisar a nota máxima.
+- Alterar questões ou configurações críticas depois de tentativas sem analisar consequências.
+- Tratar embaralhamento, senha ou bloqueio de navegador como garantia isolada de segurança.
 
 </AvoidThis>
 
-<Checklist :items='[&quot;Objetivo e produto esperado estão explícitos&quot;, &quot;Datas, grupos e permissões foram testados&quot;, &quot;Avaliação e conclusão correspondem ao plano&quot;, &quot;Fluxo foi testado como participante&quot;, &quot;Alternativas acessíveis estão disponíveis&quot;]' />
+<Checklist :items='["Objetivos e matriz de questões foram definidos", "Enunciados, respostas, notas e feedback foram revisados", "Tempo, tentativas e método de avaliação estão coerentes", "Opções de revisão foram conferidas nos quatro momentos", "Paginação e navegação funcionam em tela estreita", "Exceções e suporte foram planejados", "Pré-visualização e tentativa de estudante foram concluídas", "Livro de notas e conclusão apresentam o resultado esperado"]' />
 
-<VideoSection title="Configurar Questionário" description="Vídeo previsto para demonstrar somente as decisões críticas, após validação do ambiente." duration="6–9 min" audience="Professor e tutor" />
+<FAQ :items='[
+  {"question":"Por que a nota ainda não aparece?","answer":"Verifique se existem questões discursivas aguardando correção, opções de revisão, visibilidade do item, estado da tentativa e bloqueio ou substituição no Livro de notas."},
+  {"question":"Pré-visualizar é suficiente?","answer":"Não. A pré-visualização valida questões e comportamento do professor; uma conta de estudante revela disponibilidade, exceções, conclusão, calendário e visibilidade real."},
+  {"question":"Posso mudar as questões depois que alguém respondeu?","answer":"Mudanças podem ser limitadas ou afetar resultados existentes. Preserve tentativas, examine as opções oferecidas pelo Moodle e registre qualquer decisão que altere avaliação."}
+]' />
 
-<RelatedContent :items='[{&quot;title&quot;: &quot;Catálogo de atividades&quot;, &quot;href&quot;: &quot;/atividades/&quot;, &quot;description&quot;: &quot;Compare finalidades e níveis.&quot;}, {&quot;title&quot;: &quot;Conclusão de atividade&quot;, &quot;href&quot;: &quot;/organizacao-do-curso/conclusao.html&quot;, &quot;description&quot;: &quot;Planeje acompanhamento.&quot;}, {&quot;title&quot;: &quot;Livro de notas&quot;, &quot;href&quot;: &quot;/avaliacao/livro-de-notas.html&quot;, &quot;description&quot;: &quot;Confira o efeito da avaliação.&quot;}]' />
+<VideoSection title="Como montar e testar um Questionário" description="Da matriz de avaliação à análise da tentativa de estudante." duration="12 minutos" audience="Professor e tutor" status="em-producao" objective="Configurar um Questionário sem expor respostas e validar o fluxo completo." :script='["Planejar objetivos e tipos de questão", "Configurar tempo e tentativas", "Definir comportamento e revisão", "Adicionar questões do banco", "Configurar conclusão", "Pré-visualizar", "Executar tentativa como estudante", "Conferir resultados"]' />
+
+<RelatedContent :items='[
+  {"title":"Organizar o Banco de questões","href":"/avaliacao/banco-de-questoes.html","description":"Estruture categorias, versões e reutilização."},
+  {"title":"Questionário ou H5P?","href":"/comparacoes/questionario-h5p.html","description":"Compare avaliação formal e prática interativa."},
+  {"title":"Resolver problemas no Questionário","href":"/solucao-de-problemas/questionario.html","description":"Diagnostique acesso, tentativa, envio e resultado."}
+]' />
+
+## Referência oficial
+
+- [Quiz activity — MoodleDocs 5.2](https://docs.moodle.org/502/en/Quiz_activity)

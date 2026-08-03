@@ -20,17 +20,24 @@ lastReviewed: 2026-08-03
 
 Papel é um conjunto de capacidades atribuído em um contexto. A mesma pessoa pode ter ações diferentes no site, categoria, curso e atividade.
 
-<ValidationNotice>Confirme nomes, rotas, capacidades e opções no Moodle institucional antes de publicar instruções passo a passo.</ValidationNotice>
+<ValidationNotice>Confirme no Moodle institucional os nomes, caminhos, capacidades e opções que afetam **Compreender papéis e permissões** antes de publicar esta orientação.</ValidationNotice>
 
-## Decisões essenciais
 
-- Defina a finalidade e quem será afetado.
-- Verifique permissões, datas, grupos e dados envolvidos.
-- Faça a menor alteração necessária e preserve o histórico.
-- Teste com o perfil destinatário e registre o resultado.
+<ExampleBox title="Exemplo de aplicação">Em um curso de demonstração, defina a ação necessária e depois identifique o papel e o contexto. Antes de trabalhar com dados reais, teste e registre a atribuição e registre o resultado.</ExampleBox>
 
-<ExampleBox>Em um curso de demonstração, aplique esta orientação com dados fictícios, compare a visão do professor e do estudante e só então replique no curso real.</ExampleBox>
+<ScreenshotPlaceholder id="PAPEIS-E-PERMISSOES-01" title="Compreender papéis e permissões: tela principal" description="Captura mínima necessária para apoiar compreender papéis e permissões, após validação institucional." alt="Tela do Moodle 5.2 relacionada a compreender papéis e permissões." src="" framing="Enquadrar a área descrita com rótulos e controles relevantes, usando somente dados fictícios." />
 
-<ScreenshotPlaceholder id="PAPEIS-E-PERMISSOES-01" title="Tela de referência" description="Captura mínima necessária para apoiar compreender papéis e permissões, após validação institucional." alt="Tela do Moodle 5.2 relacionada a compreender papéis e permissões." src="" />
+<Checklist :items='["Defina a ação necessária foi concluído e conferido","Identifique o papel e o contexto foi concluído e conferido","Evite elevação ampla foi concluído e conferido","Teste e registre a atribuição foi concluído e conferido"]' />
 
-<Checklist :items='[&quot;Finalidade registrada&quot;, &quot;Impacto sobre estudantes verificado&quot;, &quot;Nomes e opções confirmados no ambiente&quot;, &quot;Teste realizado sem dados pessoais&quot;]' />
+## Amplie esta orientação
+
+<StepByStep>
+  <StepItem number="1" title="Defina a ação necessária" description="Comece pela capacidade que a pessoa precisa exercer no contexto." expected="A decisão “Defina a ação necessária” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="2" title="Identifique o papel e o contexto" description="Diferencie papel no site, categoria, curso e atividade." expected="A decisão “Identifique o papel e o contexto” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="3" title="Evite elevação ampla" description="Prefira a menor permissão e o menor contexto suficientes." expected="A decisão “Evite elevação ampla” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="4" title="Teste e registre a atribuição" description="Use conta autorizada e confirme o que aparece e pode ser alterado." expected="A decisão “Teste e registre a atribuição” foi registrada e conferida no perfil destinatário." />
+</StepByStep>
+
+<VideoSection title="Compreender papéis e permissões — demonstração guiada" description="Relacione capacidade, papel e contexto antes de solicitar acesso." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina a ação necessária","Identifique o papel e o contexto","Evite elevação ampla","Teste e registre a atribuição"]' />
+
+<RelatedContent :items='[{"title":"Gerenciar inscrições","href":"/participantes/inscricoes.html","description":"Diferencie método, papel, período, suspensão e desinscrição."},{"title":"Validar sincronização de participantes pelo SUAP","href":"/participantes/sincronizacao-suap.html","description":"Encaminhe divergências de vínculo pelo processo institucional correto."},{"title":"Visão geral de participantes","href":"/participantes/","description":"Compare outras orientações desta área."}]' />

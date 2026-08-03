@@ -19,17 +19,24 @@ lastReviewed: 2026-08-03
 
 Confirme o endereço oficial, use a autenticação indicada e nunca compartilhe senha ou código. Se o vínculo ainda não sincronizou, registre curso, horário e mensagem para o suporte.
 
-<ValidationNotice>Confirme nomes, rotas, capacidades e opções no Moodle institucional antes de publicar instruções passo a passo.</ValidationNotice>
+<ValidationNotice>Confirme no Moodle institucional os nomes, caminhos, capacidades e opções que afetam **Acessar a plataforma** antes de publicar esta orientação.</ValidationNotice>
 
-## Decisões essenciais
 
-- Defina a finalidade e quem será afetado.
-- Verifique permissões, datas, grupos e dados envolvidos.
-- Faça a menor alteração necessária e preserve o histórico.
-- Teste com o perfil destinatário e registre o resultado.
+<ExampleBox title="Exemplo de aplicação">Em um curso de demonstração, confirme o endereço oficial e depois entre pelo método autorizado. Antes de trabalhar com dados reais, registre um problema com segurança e registre o resultado.</ExampleBox>
 
-<ExampleBox>Em um curso de demonstração, aplique esta orientação com dados fictícios, compare a visão do professor e do estudante e só então replique no curso real.</ExampleBox>
+<ScreenshotPlaceholder id="ACESSAR-PLATAFORMA-01" title="Acessar a plataforma: tela principal" description="Captura mínima necessária para apoiar acessar a plataforma, após validação institucional." alt="Tela do Moodle 5.2 relacionada a acessar a plataforma." src="" framing="Enquadrar a área descrita com rótulos e controles relevantes, usando somente dados fictícios." />
 
-<ScreenshotPlaceholder id="ACESSAR-PLATAFORMA-01" title="Tela de referência" description="Captura mínima necessária para apoiar acessar a plataforma, após validação institucional." alt="Tela do Moodle 5.2 relacionada a acessar a plataforma." src="" />
+<Checklist :items='["Confirme o endereço oficial foi concluído e conferido","Entre pelo método autorizado foi concluído e conferido","Reconheça o painel inicial foi concluído e conferido","Registre um problema com segurança foi concluído e conferido"]' />
 
-<Checklist :items='[&quot;Finalidade registrada&quot;, &quot;Impacto sobre estudantes verificado&quot;, &quot;Nomes e opções confirmados no ambiente&quot;, &quot;Teste realizado sem dados pessoais&quot;]' />
+## Amplie esta orientação
+
+<StepByStep>
+  <StepItem number="1" title="Confirme o endereço oficial" description="Use o link divulgado pela instituição e verifique domínio e conexão segura." expected="A decisão “Confirme o endereço oficial” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="2" title="Entre pelo método autorizado" description="Informe credenciais somente na página institucional e conclua autenticação adicional." expected="A decisão “Entre pelo método autorizado” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="3" title="Reconheça o painel inicial" description="Confirme nome da conta, cursos esperados e avisos de acesso." expected="A decisão “Reconheça o painel inicial” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="4" title="Registre um problema com segurança" description="Anote horário, mensagem e navegador sem enviar senha ou token." expected="A decisão “Registre um problema com segurança” foi registrada e conferida no perfil destinatário." />
+</StepByStep>
+
+<VideoSection title="Acessar a plataforma — demonstração guiada" description="Use o endereço institucional ou a integração autorizada sem expor credenciais." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Confirme o endereço oficial","Entre pelo método autorizado","Reconheça o painel inicial","Registre um problema com segurança"]' />
+
+<RelatedContent :items='[{"title":"Conhecer o Moodle 5.2","href":"/comece-por-aqui/conhecer-moodle-5-2.html","description":"Reconheça a navegação e as mudanças relevantes da versão 5.2."},{"title":"Navegar no Moodle","href":"/comece-por-aqui/navegar-no-moodle.html","description":"Localize cursos, índice, atividades, notas e menu do usuário."},{"title":"Visão geral de comece por aqui","href":"/comece-por-aqui/","description":"Compare outras orientações desta área."}]' />

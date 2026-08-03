@@ -21,4 +21,26 @@ lastReviewed: 2026-08-03
 
 <TipBox title="Decisão rápida">Tarefa para produto; Fórum para diálogo.</TipBox>
 
-<ValidationNotice>Confirme se as duas opções estão habilitadas e quais relatórios e permissões existem no ambiente institucional.</ValidationNotice>
+<ValidationNotice>Confirme no ambiente institucional a disponibilidade, os relatórios e as permissões das opções comparadas em **Tarefa × Fórum**.</ValidationNotice>
+
+## Amplie esta orientação
+
+<VideoSection title="Tarefa × Fórum — demonstração guiada" description="Compare Tarefa e Fórum antes de decidir." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Apresentar Tarefa","Apresentar Fórum","Comparar o cenário","Testar a decisão"]' />
+
+<RelatedContent :items='[{"title":"Questionário × H5P","href":"/comparacoes/questionario-h5p.html","description":"Compare Questionário e H5P antes de decidir."},{"title":"Wiki × Base de dados","href":"/comparacoes/wiki-base.html","description":"Compare Wiki e Base de dados antes de decidir."},{"title":"Visão geral de comparacoes","href":"/comparacoes/","description":"Compare outras orientações desta área."}]' />
+
+## Cenário de decisão
+
+<ExampleBox>O estudante produz um relatório para correção privada e depois debate conclusões com colegas.</ExampleBox>
+
+## Como decidir
+
+- Escolha **Tarefa** quando sua característica principal for indispensável ao objetivo.
+- Escolha **Fórum** quando a experiência oferecida pela segunda opção reduzir etapas ou barreiras.
+- Combine as opções de **Tarefa × Fórum** somente quando cada uma tiver função distinta e explícita.
+
+<ImportantBox title="Decisão recomendada">Receba o produto pela Tarefa e realize a discussão no Fórum; não force uma única ferramenta a cumprir os dois papéis.</ImportantBox>
+
+<Checklist :items='["A ação do estudante foi definida","A característica exclusiva de Tarefa é necessária","A característica exclusiva de Fórum é necessária","A opção escolhida foi testada no perfil destinatário"]' />
+
+<RelatedContent :items='[{"title":"Guia completo: Tarefa","href":"/atividades/tarefa.html","description":"Veja configuração, teste e boas práticas."},{"title":"Guia completo: Fórum","href":"/atividades/forum.html","description":"Compare a experiência completa."}]' />

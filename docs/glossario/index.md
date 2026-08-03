@@ -47,3 +47,13 @@ lastReviewed: 2026-08-03
 <GlossaryTerm term="SCORM">Padrão de pacote de conteúdo com comunicação de tentativa e resultado.</GlossaryTerm>
 
 <GlossaryTerm term="H5P">Formato e ecossistema de conteúdos interativos; os tipos disponíveis dependem de bibliotecas instaladas.</GlossaryTerm>
+
+<section class="hub-guide">
+<span class="section-kicker">Rota de aprendizagem</span>
+<h2>Como usar esta área</h2>
+<p>Consulte o termo para reconhecer o conceito e depois siga os links temáticos do portal para aplicá-lo no curso.</p>
+</section>
+
+<VideoSection title="Como navegar em Glossário" description="Apresentação das rotas, filtros e pontos de partida desta área." duration="4 minutos" audience="Todos os públicos indicados" status="em-producao" objective="Ajudar a escolher a próxima orientação sem depender de conhecimento prévio dos menus." :script='["Reconhecer a finalidade da área","Escolher uma rota inicial","Usar catálogo e busca","Abrir uma orientação completa"]' />
+
+<RelatedContent :items='[{"title":"Recursos","href":"/recursos/","description":"Veja conceitos aplicados a conteúdos."},{"title":"Atividades","href":"/atividades/","description":"Veja conceitos aplicados à participação."}]' />

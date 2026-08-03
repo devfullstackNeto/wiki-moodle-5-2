@@ -21,4 +21,26 @@ lastReviewed: 2026-08-03
 
 <TipBox title="Decisão rápida">Grupo define pessoas; agrupamento direciona conjuntos de grupos.</TipBox>
 
-<ValidationNotice>Confirme se as duas opções estão habilitadas e quais relatórios e permissões existem no ambiente institucional.</ValidationNotice>
+<ValidationNotice>Confirme no ambiente institucional a disponibilidade, os relatórios e as permissões das opções comparadas em **Grupos × agrupamentos**.</ValidationNotice>
+
+## Amplie esta orientação
+
+<VideoSection title="Grupos × agrupamentos — demonstração guiada" description="Compare Grupos e Agrupamentos antes de decidir." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Apresentar Grupos","Apresentar Agrupamentos","Comparar o cenário","Testar a decisão"]' />
+
+<RelatedContent :items='[{"title":"Glossário × Base de dados","href":"/comparacoes/glossario-base.html","description":"Compare Glossário e Base de dados antes de decidir."},{"title":"Lição × Livro","href":"/comparacoes/licao-livro.html","description":"Compare Lição e Livro antes de decidir."},{"title":"Visão geral de comparacoes","href":"/comparacoes/","description":"Compare outras orientações desta área."}]' />
+
+## Cenário de decisão
+
+<ExampleBox>Quatro equipes existem no curso, mas duas atividades usam combinações diferentes dessas equipes.</ExampleBox>
+
+## Como decidir
+
+- Escolha **Grupos** quando sua característica principal for indispensável ao objetivo.
+- Escolha **Agrupamentos** quando a experiência oferecida pela segunda opção reduzir etapas ou barreiras.
+- Combine as opções de **Grupos × agrupamentos** somente quando cada uma tiver função distinta e explícita.
+
+<ImportantBox title="Decisão recomendada">Crie pessoas nos grupos e reúna grupos em agrupamentos distintos para cada conjunto de atividades.</ImportantBox>
+
+<Checklist :items='["A ação do estudante foi definida","A característica exclusiva de Grupos é necessária","A característica exclusiva de Agrupamentos é necessária","A opção escolhida foi testada no perfil destinatário"]' />
+
+<RelatedContent :items='[{"title":"Guia completo: Grupos","href":"/participantes/grupos.html","description":"Veja configuração, teste e boas práticas."},{"title":"Guia completo: Agrupamentos","href":"/organizacao-do-curso/grupos-e-agrupamentos.html","description":"Compare a experiência completa."}]' />

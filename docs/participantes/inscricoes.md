@@ -20,17 +20,24 @@ lastReviewed: 2026-08-03
 
 Inscrição manual, autoinscrição e sincronização institucional têm regras distintas. Suspender preserva a inscrição; desinscrever pode afetar acesso e visualização de histórico.
 
-<ValidationNotice>Confirme nomes, rotas, capacidades e opções no Moodle institucional antes de publicar instruções passo a passo.</ValidationNotice>
+<ValidationNotice>Confirme no Moodle institucional os nomes, caminhos, capacidades e opções que afetam **Gerenciar inscrições** antes de publicar esta orientação.</ValidationNotice>
 
-## Decisões essenciais
 
-- Defina a finalidade e quem será afetado.
-- Verifique permissões, datas, grupos e dados envolvidos.
-- Faça a menor alteração necessária e preserve o histórico.
-- Teste com o perfil destinatário e registre o resultado.
+<ExampleBox title="Exemplo de aplicação">Em um curso de demonstração, identifique o método ativo e depois confira pessoa, papel e período. Antes de trabalhar com dados reais, teste acesso e reversibilidade e registre o resultado.</ExampleBox>
 
-<ExampleBox>Em um curso de demonstração, aplique esta orientação com dados fictícios, compare a visão do professor e do estudante e só então replique no curso real.</ExampleBox>
+<ScreenshotPlaceholder id="INSCRICOES-01" title="Gerenciar inscrições: tela principal" description="Captura mínima necessária para apoiar gerenciar inscrições, após validação institucional." alt="Tela do Moodle 5.2 relacionada a gerenciar inscrições." src="" framing="Enquadrar a área descrita com rótulos e controles relevantes, usando somente dados fictícios." />
 
-<ScreenshotPlaceholder id="INSCRICOES-01" title="Tela de referência" description="Captura mínima necessária para apoiar gerenciar inscrições, após validação institucional." alt="Tela do Moodle 5.2 relacionada a gerenciar inscrições." src="" />
+<Checklist :items='["Identifique o método ativo foi concluído e conferido","Confira pessoa, papel e período foi concluído e conferido","Faça a alteração autorizada foi concluído e conferido","Teste acesso e reversibilidade foi concluído e conferido"]' />
 
-<Checklist :items='[&quot;Finalidade registrada&quot;, &quot;Impacto sobre estudantes verificado&quot;, &quot;Nomes e opções confirmados no ambiente&quot;, &quot;Teste realizado sem dados pessoais&quot;]' />
+## Amplie esta orientação
+
+<StepByStep>
+  <StepItem number="1" title="Identifique o método ativo" description="Diferencie inscrição manual, sincronização de coorte e integração institucional." expected="A decisão “Identifique o método ativo” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="2" title="Confira pessoa, papel e período" description="Valide identidade, função, início, término e estado." expected="A decisão “Confira pessoa, papel e período” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="3" title="Faça a alteração autorizada" description="Inscreva, suspenda ou ajuste sem remover histórico indevidamente." expected="A decisão “Faça a alteração autorizada” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="4" title="Teste acesso e reversibilidade" description="Confirme o resultado e se uma sincronização poderá sobrescrever a mudança." expected="A decisão “Teste acesso e reversibilidade” foi registrada e conferida no perfil destinatário." />
+</StepByStep>
+
+<VideoSection title="Gerenciar inscrições — demonstração guiada" description="Diferencie método, papel, período, suspensão e desinscrição." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Identifique o método ativo","Confira pessoa, papel e período","Faça a alteração autorizada","Teste acesso e reversibilidade"]' />
+
+<RelatedContent :items='[{"title":"Criar e usar grupos no curso","href":"/participantes/grupos.html","description":"Organize participantes, modalidades e agrupamentos sem confundir equipe, acesso e inscrição."},{"title":"Compreender papéis e permissões","href":"/participantes/papeis-e-permissoes.html","description":"Relacione capacidade, papel e contexto antes de solicitar acesso."},{"title":"Visão geral de participantes","href":"/participantes/","description":"Compare outras orientações desta área."}]' />

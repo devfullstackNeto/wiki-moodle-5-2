@@ -37,14 +37,14 @@ Use Pasta quando os arquivos formam um conjunto pequeno e coerente. Considere ou
 <ConfigurationTable :rows='[{&quot;field&quot;: &quot;Nome&quot;, &quot;purpose&quot;: &quot;Explica o conjunto&quot;, &quot;impact&quot;: &quot;Relacione ao tema, não ao formato.&quot;}, {&quot;field&quot;: &quot;Arquivos&quot;, &quot;purpose&quot;: &quot;Organiza arquivos e subpastas&quot;, &quot;impact&quot;: &quot;A estrutura precisa continuar simples em telas pequenas.&quot;}, {&quot;field&quot;: &quot;Exibir conteúdo&quot;, &quot;purpose&quot;: &quot;Mostra em página própria ou no curso&quot;, &quot;impact&quot;: &quot;A disponibilidade varia conforme configuração.&quot;}, {&quot;field&quot;: &quot;Baixar pasta&quot;, &quot;purpose&quot;: &quot;Pode permitir download do conjunto&quot;, &quot;impact&quot;: &quot;Confirme o comportamento institucional.&quot;}]' />
 
 <StepByStep>
-<StepItem title="Defina nome e propósito" result="O estudante entende o que encontrará e por que deve acessar.">Escreva um nome descritivo e uma orientação compatível com a tarefa de aprendizagem.</StepItem>
-<StepItem title="Adicione e configure o conteúdo" result="O recurso apresenta o material com o comportamento esperado.">Preencha os campos próprios de Pasta e revise as opções que alteram acesso, aparência ou conclusão.</StepItem>
-<StepItem title="Teste como estudante" result="O conteúdo abre, é legível e não expõe informação indevida.">Salve, abra em tela estreita e teste com o perfil destinatário quando houver conta autorizada.</StepItem>
+<StepItem title="Defina nome e propósito de Pasta" result="O estudante entende o que encontrará e por que deve acessar.">Escreva um nome descritivo e uma orientação compatível com a tarefa de aprendizagem.</StepItem>
+<StepItem title="Configure o conteúdo próprio de Pasta" result="O recurso apresenta o material com o comportamento esperado.">Preencha os campos próprios de Pasta e revise as opções que alteram acesso, aparência ou conclusão.</StepItem>
+<StepItem title="Teste Pasta como estudante" result="O conteúdo abre, é legível e não expõe informação indevida.">Salve, abra em tela estreita e teste com o perfil destinatário quando houver conta autorizada.</StepItem>
 </StepByStep>
 
 <ExampleBox>Agrupe três modelos de relatório de laboratório e um arquivo LEIA-ME com a finalidade de cada modelo.</ExampleBox>
 
-<ScreenshotPlaceholder id="PASTA-CONFIG-01" title="Configuração de Pasta" description="Configuração da Pasta mostrando arquivos organizados e a opção de exibição." alt="Configuração da Pasta mostrando arquivos organizados e a opção de exibição." src="" />
+<ScreenshotPlaceholder id="PASTA-CONFIG-01" title="Configuração de Pasta" description="Configuração da Pasta mostrando arquivos organizados e a opção de exibição." alt="Configuração da Pasta mostrando arquivos organizados e a opção de exibição." src="" framing="Enquadrar a área descrita com rótulos e controles relevantes, usando somente dados fictícios." />
 
 <BestPractices>
 
@@ -57,3 +57,7 @@ Use Pasta quando os arquivos formam um conjunto pequeno e coerente. Considere ou
 <Checklist :items='[&quot;Nome e descrição orientam a ação&quot;, &quot;Conteúdo abre com o perfil do estudante&quot;, &quot;Acessibilidade e direitos de uso foram verificados&quot;, &quot;Restrições e conclusão têm finalidade clara&quot;]' />
 
 <RelatedContent :items='[{&quot;title&quot;: &quot;Comparar recursos&quot;, &quot;href&quot;: &quot;/comparacoes/&quot;, &quot;description&quot;: &quot;Escolha o formato mais adequado.&quot;}, {&quot;title&quot;: &quot;Acessibilidade&quot;, &quot;href&quot;: &quot;/boas-praticas/acessibilidade.html&quot;, &quot;description&quot;: &quot;Revise materiais inclusivos.&quot;}]' />
+
+## Amplie esta orientação
+
+<VideoSection title="Usar o recurso Pasta — demonstração guiada" description="Agrupe vários arquivos relacionados sem ocupar a página do curso com muitos links." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina o propósito","Configure o conteúdo","Teste como estudante"]' />

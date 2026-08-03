@@ -19,17 +19,24 @@ lastReviewed: 2026-08-03
 
 Edite apenas informações liberadas pela instituição. Preferências controlam experiência pessoal; não mudam regras do curso nem substituem configurações administrativas.
 
-<ValidationNotice>Confirme nomes, rotas, capacidades e opções no Moodle institucional antes de publicar instruções passo a passo.</ValidationNotice>
+<ValidationNotice>Confirme no Moodle institucional os nomes, caminhos, capacidades e opções que afetam **Configurar perfil e preferências** antes de publicar esta orientação.</ValidationNotice>
 
-## Decisões essenciais
 
-- Defina a finalidade e quem será afetado.
-- Verifique permissões, datas, grupos e dados envolvidos.
-- Faça a menor alteração necessária e preserve o histórico.
-- Teste com o perfil destinatário e registre o resultado.
+<ExampleBox title="Exemplo de aplicação">Em um curso de demonstração, abra o menu do usuário e depois revise dados editáveis. Antes de trabalhar com dados reais, teste a nova preferência e registre o resultado.</ExampleBox>
 
-<ExampleBox>Em um curso de demonstração, aplique esta orientação com dados fictícios, compare a visão do professor e do estudante e só então replique no curso real.</ExampleBox>
+<ScreenshotPlaceholder id="PERFIL-E-PREFERENCIAS-01" title="Configurar perfil e preferências: tela principal" description="Captura mínima necessária para apoiar configurar perfil e preferências, após validação institucional." alt="Tela do Moodle 5.2 relacionada a configurar perfil e preferências." src="" framing="Enquadrar a área descrita com rótulos e controles relevantes, usando somente dados fictícios." />
 
-<ScreenshotPlaceholder id="PERFIL-E-PREFERENCIAS-01" title="Tela de referência" description="Captura mínima necessária para apoiar configurar perfil e preferências, após validação institucional." alt="Tela do Moodle 5.2 relacionada a configurar perfil e preferências." src="" />
+<Checklist :items='["Abra o menu do usuário foi concluído e conferido","Revise dados editáveis foi concluído e conferido","Configure mensagens e notificações foi concluído e conferido","Teste a nova preferência foi concluído e conferido"]' />
 
-<Checklist :items='[&quot;Finalidade registrada&quot;, &quot;Impacto sobre estudantes verificado&quot;, &quot;Nomes e opções confirmados no ambiente&quot;, &quot;Teste realizado sem dados pessoais&quot;]' />
+## Amplie esta orientação
+
+<StepByStep>
+  <StepItem number="1" title="Abra o menu do usuário" description="Localize Perfil e Preferências no menu associado à conta." expected="A decisão “Abra o menu do usuário” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="2" title="Revise dados editáveis" description="Atualize somente informações autorizadas e confirme o que vem do sistema institucional." expected="A decisão “Revise dados editáveis” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="3" title="Configure mensagens e notificações" description="Escolha canais e frequência conforme urgência e volume." expected="A decisão “Configure mensagens e notificações” foi registrada e conferida no perfil destinatário." />
+  <StepItem number="4" title="Teste a nova preferência" description="Gere uma situação segura ou aguarde um evento para confirmar o comportamento." expected="A decisão “Teste a nova preferência” foi registrada e conferida no perfil destinatário." />
+</StepByStep>
+
+<VideoSection title="Configurar perfil e preferências — demonstração guiada" description="Revise dados permitidos, editor, fórum, mensagens e notificações." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Abra o menu do usuário","Revise dados editáveis","Configure mensagens e notificações","Teste a nova preferência"]' />
+
+<RelatedContent :items='[{"title":"O que é o Moodle","href":"/comece-por-aqui/o-que-e-o-moodle.html","description":"Entenda curso, recurso, atividade, bloco e papel sem depender da aparência do tema."},{"title":"Acessar a plataforma","href":"/comece-por-aqui/acessar-plataforma.html","description":"Use o endereço institucional ou a integração autorizada sem expor credenciais."},{"title":"Visão geral de comece por aqui","href":"/comece-por-aqui/","description":"Compare outras orientações desta área."}]' />
