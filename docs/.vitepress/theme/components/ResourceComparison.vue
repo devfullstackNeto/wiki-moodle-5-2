@@ -1,0 +1,2 @@
+<script setup lang="ts">defineProps<{ rows: Array<Record<string, string>>; columns: Array<{ key: string; label: string }> }>()</script>
+<template><div class="table-wrap"><table><thead><tr><th v-for="col in columns" :key="col.key" scope="col">{{ col.label }}</th></tr></thead><tbody><tr v-for="(row,index) in rows" :key="index"><td v-for="col in columns" :key="col.key">{{ row[col.key] }}</td></tr></tbody></table></div></template>

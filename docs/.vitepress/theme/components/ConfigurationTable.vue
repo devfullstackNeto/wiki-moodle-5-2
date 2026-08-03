@@ -1,0 +1,2 @@
+<script setup lang="ts">defineProps<{ rows: Array<{ field: string; purpose: string; impact?: string }> }>()</script>
+<template><div class="table-wrap"><table><thead><tr><th scope="col">Campo ou decisão</th><th scope="col">Para que serve</th><th scope="col">Impacto</th></tr></thead><tbody><tr v-for="row in rows" :key="row.field"><th scope="row">{{ row.field }}</th><td>{{ row.purpose }}</td><td>{{ row.impact || 'Depende da configuração.' }}</td></tr></tbody></table></div></template>

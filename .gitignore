@@ -1,0 +1,27 @@
+# Dependências e saídas geradas
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+coverage/
+
+# Variáveis locais e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Logs, caches e temporários
+*.log
+npm-debug.log*
+*.tmp
+*.temp
+.cache/
+.vite/
+
+# Arquivos de ferramentas e sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

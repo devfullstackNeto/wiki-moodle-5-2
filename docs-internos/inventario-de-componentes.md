@@ -1,0 +1,36 @@
+# Inventário de componentes
+
+- **AudienceBadge** — componente Vue global em `docs/.vitepress/theme/components/AudienceBadge.vue`.
+- **AvoidThis** — componente Vue global em `docs/.vitepress/theme/components/AvoidThis.vue`.
+- **BestPractices** — componente Vue global em `docs/.vitepress/theme/components/BestPractices.vue`.
+- **Breadcrumbs** — componente Vue global em `docs/.vitepress/theme/components/Breadcrumbs.vue`.
+- **Checklist** — componente Vue global em `docs/.vitepress/theme/components/Checklist.vue`.
+- **ConfigurationTable** — componente Vue global em `docs/.vitepress/theme/components/ConfigurationTable.vue`.
+- **ContentCatalog** — componente Vue global em `docs/.vitepress/theme/components/ContentCatalog.vue`.
+- **DifficultyBadge** — componente Vue global em `docs/.vitepress/theme/components/DifficultyBadge.vue`.
+- **ExampleBox** — componente Vue global em `docs/.vitepress/theme/components/ExampleBox.vue`.
+- **FAQ** — componente Vue global em `docs/.vitepress/theme/components/FAQ.vue`.
+- **GlossaryTerm** — componente Vue global em `docs/.vitepress/theme/components/GlossaryTerm.vue`.
+- **HomeSearch** — componente Vue global em `docs/.vitepress/theme/components/HomeSearch.vue`.
+- **ImageZoom** — componente Vue global em `docs/.vitepress/theme/components/ImageZoom.vue`.
+- **ImportantBox** — componente Vue global em `docs/.vitepress/theme/components/ImportantBox.vue`.
+- **LastUpdated** — componente Vue global em `docs/.vitepress/theme/components/LastUpdated.vue`.
+- **MoodleVersionBadge** — componente Vue global em `docs/.vitepress/theme/components/MoodleVersionBadge.vue`.
+- **NavigationPath** — componente Vue global em `docs/.vitepress/theme/components/NavigationPath.vue`.
+- **ObjectiveCard** — componente Vue global em `docs/.vitepress/theme/components/ObjectiveCard.vue`.
+- **PageFeedback** — componente Vue global em `docs/.vitepress/theme/components/PageFeedback.vue`.
+- **PageHero** — componente Vue global em `docs/.vitepress/theme/components/PageHero.vue`.
+- **Prerequisites** — componente Vue global em `docs/.vitepress/theme/components/Prerequisites.vue`.
+- **PreviousNext** — componente Vue global em `docs/.vitepress/theme/components/PreviousNext.vue`.
+- **RelatedContent** — componente Vue global em `docs/.vitepress/theme/components/RelatedContent.vue`.
+- **ResourceComparison** — componente Vue global em `docs/.vitepress/theme/components/ResourceComparison.vue`.
+- **ScreenshotGallery** — componente Vue global em `docs/.vitepress/theme/components/ScreenshotGallery.vue`.
+- **ScreenshotPlaceholder** — componente Vue global em `docs/.vitepress/theme/components/ScreenshotPlaceholder.vue`.
+- **StepByStep** — componente Vue global em `docs/.vitepress/theme/components/StepByStep.vue`.
+- **StepItem** — componente Vue global em `docs/.vitepress/theme/components/StepItem.vue`.
+- **TipBox** — componente Vue global em `docs/.vitepress/theme/components/TipBox.vue`.
+- **ValidationNotice** — componente Vue global em `docs/.vitepress/theme/components/ValidationNotice.vue`.
+- **VideoPlaceholder** — componente Vue global em `docs/.vitepress/theme/components/VideoPlaceholder.vue`.
+- **VideoSection** — componente Vue global em `docs/.vitepress/theme/components/VideoSection.vue`.
+- **VideoTranscript** — componente Vue global em `docs/.vitepress/theme/components/VideoTranscript.vue`.
+- **WarningBox** — componente Vue global em `docs/.vitepress/theme/components/WarningBox.vue`.
