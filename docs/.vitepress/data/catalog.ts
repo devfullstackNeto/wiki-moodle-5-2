@@ -4,13 +4,19 @@ export interface CatalogItem {
   href: string
   type: string
   category: string
+  subcategory: string
   audience: string[]
   objectives: string[]
   level: 'Básico' | 'Intermediário' | 'Avançado'
   tags: string[]
+  status: 'em-revisao' | 'validado'
+  featured: boolean
+  relatedAreas: string[]
 }
 
-export const catalog: CatalogItem[] = [
+type CatalogSeed = Omit<CatalogItem, 'subcategory' | 'status' | 'featured' | 'relatedAreas'>
+
+const catalogSeed: CatalogSeed[] = [
   {
     "title": "Recurso Arquivo",
     "description": "Disponibilize um único documento, imagem, áudio ou outro arquivo com orientação de uso.",
@@ -1497,3 +1503,74 @@ export const catalog: CatalogItem[] = [
     ]
   }
 ]
+
+function normalized(value: string) {
+  return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('pt-BR')
+}
+
+function primaryArea(category: string) {
+  const areas: Record<string, string> = {
+    'Recursos': 'recursos',
+    'Atividades': 'atividades',
+    'Avaliação': 'avaliacao',
+    'Organização do curso': 'organizacao',
+    'Comunicação': 'comunicacao',
+    'Participantes': 'participantes',
+    'Relatórios': 'relatorios',
+    'Solução de problemas': 'solucao-de-problemas',
+    'Comece por aqui': 'comece-por-aqui',
+    'Boas práticas': 'boas-praticas'
+  }
+  return areas[category] || normalized(category).replaceAll(' ', '-')
+}
+
+function subcategoryFor(item: CatalogSeed) {
+  const text = normalized(`${item.title} ${item.tags.join(' ')}`)
+  if (item.type === 'recurso') return text.includes('arquivo') || text.includes('pasta') ? 'Arquivos e coleções' : 'Leitura e multimídia'
+  if (item.type === 'atividade') {
+    if (/comunic|colabor|forum|wiki|glossario|bigblue/.test(text)) return 'Comunicação e colaboração'
+    if (/avalia|tarefa|questionario|laboratorio|feedback/.test(text)) return 'Avaliação e produção'
+    if (/h5p|scorm|licao|multimidia/.test(text)) return 'Conteúdo interativo'
+    return 'Participação e pesquisa'
+  }
+  const groups: Record<string, string> = {
+    'Avaliação': 'Notas, critérios e tentativas',
+    'Organização do curso': 'Estrutura, acesso e reutilização',
+    'Comunicação': 'Canais e mediação',
+    'Participantes': 'Acesso, grupos e acompanhamento',
+    'Relatórios': 'Evidências e monitoramento',
+    'Solução de problemas': 'Diagnóstico por sintoma',
+    'Comece por aqui': 'Fundamentos',
+    'Boas práticas': 'Qualidade e responsabilidade'
+  }
+  return groups[item.category] || item.category
+}
+
+function relatedAreasFor(item: CatalogSeed) {
+  const areas = new Set([primaryArea(item.category)])
+  const title = normalized(item.title)
+  if (item.type === 'recurso') areas.add('recursos')
+  if (item.type === 'atividade') areas.add('atividades')
+  if (item.category === 'Comunicação' || /atividade (forum|wiki|glossario|bigbluebutton)/.test(title)) areas.add('comunicacao')
+  if (item.category === 'Avaliação' || /atividade (tarefa|questionario|feedback|forum|laboratorio de avaliacao|h5p|licao)/.test(title)) areas.add('avaliacao')
+  if (item.category === 'Organização do curso') areas.add('organizacao')
+  if (item.category === 'Participantes' || /grupos e agrupamentos/.test(title)) areas.add('participantes')
+  if (item.category === 'Relatórios') areas.add('relatorios')
+  if (item.category === 'Relatórios' || item.category === 'Participantes' || /configurar conclusao|livro de notas|atividade (tarefa|questionario|forum)/.test(title)) areas.add('acompanhamento')
+  if (item.type === 'recurso' || /atividade (h5p|scorm|licao)/.test(title)) areas.add('conteudo-multimidia')
+  if (item.category === 'Solução de problemas') areas.add('solucao-de-problemas')
+  return [...areas]
+}
+
+const featuredTitles = new Set([
+  'Recurso Arquivo', 'Recurso Página', 'Recurso Livro', 'Atividade Tarefa', 'Atividade Fórum',
+  'Atividade Questionário', 'Usar o Livro de notas', 'Configurar conclusão', 'Consultar logs'
+])
+
+export const catalog: CatalogItem[] = catalogSeed.map((item) => ({
+  ...item,
+  subcategory: subcategoryFor(item),
+  status: 'em-revisao',
+  featured: featuredTitles.has(item.title),
+  relatedAreas: relatedAreasFor(item)
+}))

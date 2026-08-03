@@ -17,7 +17,7 @@ lastReviewed: 2026-08-03
 
 As 15 atividades padrão podem ser ocultadas pelo administrador. Serviços como BigBlueButton e LTI também exigem configuração.
 
-<ContentCatalog type="atividade" />
+<ContentCatalog type="atividade" related-area="atividades" />
 
 <section class="hub-guide">
 <span class="section-kicker">Rota de aprendizagem</span>

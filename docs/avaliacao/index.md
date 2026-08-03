@@ -1,6 +1,6 @@
 ---
 title: Avaliação
-description: Acesse orientações consolidadas sobre avaliação.
+description: Planeje evidências, critérios, tentativas, notas e feedback como um sistema coerente.
 category: Avaliação
 audience:
   - Todos os públicos
@@ -13,11 +13,11 @@ moodleVersion: 5.2.x
 status: em-revisao
 lastReviewed: 2026-08-03
 ---
-<ObjectiveCard>Acesse orientações consolidadas sobre avaliação.</ObjectiveCard>
+<ObjectiveCard>Conecte Tarefa, Questionário, Livro de notas, critérios e devolutivas ao objetivo de aprendizagem.</ObjectiveCard>
 
-A área **Avaliação** reúne conteúdos consolidados que antes estavam fragmentados na Wiki.
+A área **Avaliação** reúne atividades avaliativas e orientações sobre notas, rubricas, questões, tentativas, exceções e feedback.
 
-<ContentCatalog  />
+<ContentCatalog related-area="avaliacao" />
 
 <section class="hub-guide">
 <span class="section-kicker">Rota de aprendizagem</span>

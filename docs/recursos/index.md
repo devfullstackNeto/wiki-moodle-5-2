@@ -17,7 +17,7 @@ lastReviewed: 2026-08-03
 
 Recursos normalmente apresentam material; se você precisa de participação, consulte [Atividades](/atividades/).
 
-<ContentCatalog type="recurso" />
+<ContentCatalog type="recurso" related-area="recursos" />
 
 <section class="hub-guide">
 <span class="section-kicker">Rota de aprendizagem</span>

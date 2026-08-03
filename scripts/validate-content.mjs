@@ -32,6 +32,6 @@ for (const file of files) {
   }
 }
 
-if (files.length !== 105) errors.push(`esperadas 105 páginas; encontradas ${files.length}`)
+if (files.length !== 107) errors.push(`esperadas 107 páginas; encontradas ${files.length}`)
 if (errors.length) { console.error(errors.join('\n')); process.exit(1) }
 console.log(`Conteúdo válido: ${files.length} páginas, ${titles.size} títulos únicos.`)

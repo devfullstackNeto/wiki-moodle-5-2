@@ -20,8 +20,8 @@ for (const phrase of required) {
 }
 
 const pageCount = walk(docsRoot, '.md').length
-if (pageCount !== 105) {
-  console.error(`Inventário editorial alterado: esperado 105 páginas, encontrado ${pageCount}`)
+if (pageCount !== 107) {
+  console.error(`Inventário editorial alterado: esperado 107 páginas, encontrado ${pageCount}`)
   process.exit(1)
 }
 

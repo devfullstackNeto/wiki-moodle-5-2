@@ -58,4 +58,4 @@ Use Pacote de conteúdo IMS quando você recebeu um pacote IMS válido de fonte 
 
 <RelatedContent :items='[{&quot;title&quot;: &quot;Comparar recursos&quot;, &quot;href&quot;: &quot;/comparacoes/&quot;, &quot;description&quot;: &quot;Escolha o formato mais adequado.&quot;}, {&quot;title&quot;: &quot;Acessibilidade&quot;, &quot;href&quot;: &quot;/boas-praticas/acessibilidade.html&quot;, &quot;description&quot;: &quot;Revise materiais inclusivos.&quot;}]' />
 
-<VideoSection title="Pacote de conteúdo IMS no Moodle 5.2" description="Demonstração prevista após validação institucional." duration="5 min" audience="Professor" />
+<VideoSection title="Pacote de conteúdo IMS no Moodle 5.2" description="Demonstração da inclusão, configuração e conferência de um pacote IMS em um curso de teste." duration="5 min" audience="Professor" />

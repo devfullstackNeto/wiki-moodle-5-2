@@ -76,7 +76,7 @@ const plannedTopics = computed(() => props.script?.length ? props.script : props
 </script>
 
 <template>
-  <section v-if="isPublished || editorialMode" class="video-section" :aria-labelledby="sectionId">
+  <section class="video-section" :class="{ 'video-section--planned': !isPublished }" :aria-labelledby="sectionId">
     <div class="video-section__header">
       <div class="video-section__play" aria-hidden="true">▶</div>
       <div>
@@ -89,13 +89,13 @@ const plannedTopics = computed(() => props.script?.length ? props.script : props
     <div class="video-section__meta">
       <span v-if="duration" class="portal-badge"><strong>Duração:</strong>&nbsp;{{ duration }}</span>
       <span v-if="audience" class="portal-badge"><strong>Público:</strong>&nbsp;{{ audience }}</span>
-      <span class="portal-badge video-status">{{ isPublished ? 'Vídeo publicado' : 'Vídeo em produção' }}</span>
+      <span v-if="isPublished" class="portal-badge video-status">Vídeo publicado</span>
     </div>
 
     <div v-if="!isPublished" class="video-production" role="status">
       <strong>Vídeo em produção</strong>
       <p><b>Objetivo:</b> {{ objective || description || 'Demonstrar este procedimento no ambiente institucional.' }}</p>
-      <p v-if="url">A URL informada não é válida para o provedor selecionado. Revise a configuração antes de publicar.</p>
+      <p v-if="editorialMode && url">A URL informada não é válida para o provedor selecionado. Revise a configuração antes de publicar.</p>
     </div>
 
     <div v-else-if="usesIframe && !consent" class="video-consent">
@@ -131,7 +131,7 @@ const plannedTopics = computed(() => props.script?.length ? props.script : props
     </video>
 
     <div v-if="plannedTopics.length" class="video-section__topics">
-      <h3>{{ script?.length ? 'Roteiro resumido' : 'Tópicos abordados' }}</h3>
+      <h3>{{ script?.length ? (editorialMode ? 'Roteiro resumido' : 'Tópicos previstos') : 'Tópicos abordados' }}</h3>
       <ol v-if="script?.length"><li v-for="item in script" :key="item">{{ item }}</li></ol>
       <ul v-else><li v-for="topic in topics" :key="topic">{{ topic }}</li></ul>
     </div>

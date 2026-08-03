@@ -1,6 +1,6 @@
 ---
 title: Organização do curso
-description: Acesse orientações consolidadas sobre organização do curso.
+description: Estruture configurações, seções, acesso, conclusão, grupos e reutilização do curso.
 category: Organização do curso
 audience:
   - Todos os públicos
@@ -13,15 +13,16 @@ moodleVersion: 5.2.x
 status: em-revisao
 lastReviewed: 2026-08-03
 ---
-<ObjectiveCard>Acesse orientações consolidadas sobre organização do curso.</ObjectiveCard>
+<ObjectiveCard>Prepare a estrutura do curso antes de publicar conteúdos e receber participantes.</ObjectiveCard>
 
-A área **Organização do curso** reúne conteúdos consolidados que antes estavam fragmentados na Wiki.
+A área **Organização do curso** reúne formato, seções, movimentação, visibilidade, restrições, conclusão, grupos, importação, backup e restauração.
 
-<ContentCatalog  />
+<ContentCatalog related-area="organizacao" />
 
 <section class="hub-guide">
 <span class="section-kicker">Rota de aprendizagem</span>
 <h2>Como usar esta área</h2>
+<p><strong>Organize primeiro, publique depois.</strong> Defina estrutura, visibilidade e progressão antes de duplicar ou importar materiais.</p><p>Comece pela configuração do curso e pelas seções; depois revise acesso, conclusão, grupos e plano de recuperação.</p>
 </section>
 
 <RelatedContent :items='[{"title":"Fazer backup e restauração","href":"/organizacao-do-curso/backup-e-restauracao.html","description":"Escolha entre cópia, restauração e redefinição sem comprometer dados."},{"title":"Usar blocos com propósito","href":"/organizacao-do-curso/blocos.html","description":"Escolha blocos por contexto sem criar uma página para cada opção."},{"title":"Configurar conclusão de atividade","href":"/organizacao-do-curso/conclusao.html","description":"Transforme ações observáveis em condições claras de progresso no Moodle 5.2."},{"title":"Configurar o curso","href":"/organizacao-do-curso/configurar-curso.html","description":"Revise identificação, datas, formato, aparência, grupos e acompanhamento."}]' />

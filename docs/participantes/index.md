@@ -1,6 +1,6 @@
 ---
 title: Participantes
-description: Acesse orientações consolidadas sobre participantes.
+description: Gerencie inscrições, papéis, grupos e acompanhamento individual com segurança.
 category: Participantes
 audience:
   - Todos os públicos
@@ -13,11 +13,11 @@ moodleVersion: 5.2.x
 status: em-revisao
 lastReviewed: 2026-08-03
 ---
-<ObjectiveCard>Acesse orientações consolidadas sobre participantes.</ObjectiveCard>
+<ObjectiveCard>Diferencie inscrição, papel, grupo e evidência de participação antes de alterar acessos.</ObjectiveCard>
 
-A área **Participantes** reúne conteúdos consolidados que antes estavam fragmentados na Wiki.
+A área **Participantes** reúne consulta, inscrições, permissões, grupos, acompanhamento individual e sincronização institucional.
 
-<ContentCatalog  />
+<ContentCatalog related-area="participantes" />
 
 <section class="hub-guide">
 <span class="section-kicker">Rota de aprendizagem</span>

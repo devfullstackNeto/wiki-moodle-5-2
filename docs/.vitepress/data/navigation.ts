@@ -17,6 +17,7 @@ export const nav: DefaultTheme.NavItem[] = [
     items: [
       { text: 'Recursos', link: '/recursos/' },
       { text: 'Atividades', link: '/atividades/' },
+      { text: 'Conteúdo e multimídia', link: '/conteudo-e-multimidia/' },
       { text: 'Avaliação', link: '/avaliacao/' },
       { text: 'Organização do curso', link: '/organizacao-do-curso/' }
     ]
@@ -24,6 +25,7 @@ export const nav: DefaultTheme.NavItem[] = [
   {
     text: 'Acompanhar',
     items: [
+      { text: 'Visão geral do acompanhamento', link: '/acompanhamento/' },
       { text: 'Comunicação', link: '/comunicacao/' },
       { text: 'Participantes', link: '/participantes/' },
       { text: 'Relatórios', link: '/relatorios/' }
@@ -47,6 +49,29 @@ const section = (text: string, base: string, items: string[]): DefaultTheme.Side
 })
 
 export const sidebar: DefaultTheme.Sidebar = {
+  '/acompanhamento/': [{
+    text: 'Acompanhamento',
+    collapsed: false,
+    items: [
+      { text: 'Visão geral do acompanhamento', link: '/acompanhamento/' },
+      { text: 'Conclusão de atividade', link: '/organizacao-do-curso/conclusao' },
+      { text: 'Acompanhamento individual', link: '/participantes/acompanhamento-individual' },
+      { text: 'Relatórios', link: '/relatorios/' },
+      { text: 'Livro de notas', link: '/avaliacao/livro-de-notas' }
+    ]
+  }],
+  '/conteudo-e-multimidia/': [{
+    text: 'Conteúdo e multimídia',
+    collapsed: false,
+    items: [
+      { text: 'Visão geral', link: '/conteudo-e-multimidia/' },
+      { text: 'Página', link: '/recursos/pagina' },
+      { text: 'Livro', link: '/recursos/livro' },
+      { text: 'Área de texto e mídia', link: '/recursos/area-texto-midia' },
+      { text: 'H5P', link: '/atividades/h5p' },
+      { text: 'SCORM', link: '/atividades/scorm' }
+    ]
+  }],
   '/comece-por-aqui/': [section('Comece por aqui', 'comece-por-aqui', [
     'O que é o Moodle|o-que-e-o-moodle', 'Conhecer o Moodle 5.2|conhecer-moodle-5-2',
     'Acessar a plataforma|acessar-plataforma', 'Navegar no Moodle|navegar-no-moodle',

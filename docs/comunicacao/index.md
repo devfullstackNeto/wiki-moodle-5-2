@@ -1,6 +1,6 @@
 ---
 title: Comunicação
-description: Acesse orientações consolidadas sobre comunicação.
+description: Escolha canais, ritmos e formas de mediação para comunicar-se com a turma.
 category: Comunicação
 audience:
   - Todos os públicos
@@ -13,11 +13,11 @@ moodleVersion: 5.2.x
 status: em-revisao
 lastReviewed: 2026-08-03
 ---
-<ObjectiveCard>Acesse orientações consolidadas sobre comunicação.</ObjectiveCard>
+<ObjectiveCard>Escolha entre avisos, mensagens, calendário, fórum e colaboração conforme público, urgência e necessidade de resposta.</ObjectiveCard>
 
-A área **Comunicação** reúne conteúdos consolidados que antes estavam fragmentados na Wiki.
+A área **Comunicação** reúne canais de turma, conversas diretas, eventos, notificações e atividades colaborativas relacionadas.
 
-<ContentCatalog  />
+<ContentCatalog related-area="comunicacao" />
 
 <section class="hub-guide">
 <span class="section-kicker">Rota de aprendizagem</span>

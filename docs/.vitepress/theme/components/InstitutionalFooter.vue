@@ -10,7 +10,7 @@ const glossaryHref = withBase('/glossario/')
 <template>
   <footer class="cread-footer" aria-label="Identificação institucional">
     <div class="cread-footer__inner">
-      <a class="cread-footer__brand" :href="homeHref" aria-label="Ir para a página inicial do Portal Moodle 5.2">
+      <a class="cread-footer__brand" :href="homeHref" aria-label="Ir para a página inicial da Wiki Moodle do CREaD IFMT">
         <img
           :src="brandSrc"
           alt="Instituto Federal de Mato Grosso — Centro de Referência em Educação a Distância"
@@ -21,7 +21,7 @@ const glossaryHref = withBase('/glossario/')
       </a>
       <div class="cread-footer__identity">
         <strong>CREaD IFMT — Centro de Referência em Educação a Distância — IFMT</strong>
-        <p>Portal de apoio e documentação sobre Moodle 5.2.x.</p>
+        <p>Base de conhecimento e apoio ao uso do Moodle 5.2.x do CREaD IFMT.</p>
       </div>
       <nav class="cread-footer__links" aria-label="Links úteis do rodapé">
         <a :href="homeHref">Início</a>

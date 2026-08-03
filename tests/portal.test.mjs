@@ -2,6 +2,7 @@ import assert from 'node:assert/strict'
 import fs from 'node:fs'
 import path from 'node:path'
 import test from 'node:test'
+import { transform } from 'esbuild'
 import { docsRoot, projectRoot, walk } from '../scripts/content-utils.mjs'
 
 test('componentes obrigatórios estão presentes', () => {
@@ -16,8 +17,9 @@ test('busca local, modo de aparência e sitemap estão configurados', () => {
   assert.match(config, /provider:\s*'local'/)
   assert.match(config, /sitemap:/)
   assert.match(config, /darkModeSwitchLabel/)
-  assert.match(config, /cread-ifmt-horizontal\.jpeg/)
-  assert.match(config, /Portal Moodle 5\.2 \| CREaD IFMT/)
+  assert.match(config, /siteTitle:\s*'Wiki Moodle \| CREaD IFMT'/)
+  assert.match(config, /Base de conhecimento e apoio ao uso do Moodle 5\.2\.x do CREaD IFMT\./)
+  assert.doesNotMatch(config, /themeConfig:\s*\{[\s\S]*?logo:\s*\{/)
 })
 
 test('CSS contém responsividade, foco e redução de movimento', () => {
@@ -32,6 +34,13 @@ test('conteúdo principal recebe landmark acessível', () => {
   const layout = fs.readFileSync(path.join(docsRoot, '.vitepress/theme/Layout.vue'), 'utf8')
   assert.match(layout, /#VPContent/)
   assert.match(layout, /role', 'main'/)
+})
+
+test('breadcrumbs removem o segmento técnico do base público', () => {
+  const breadcrumbs = fs.readFileSync(path.join(docsRoot, '.vitepress/theme/components/Breadcrumbs.vue'), 'utf8')
+  assert.match(breadcrumbs, /part !== 'wiki-moodle-5-2'/)
+  assert.match(breadcrumbs, /acompanhamento:'Acompanhamento'/)
+  assert.match(breadcrumbs, /'conteudo-e-multimidia':'Conteúdo e multimídia'/)
 })
 
 test('não há scripts externos de analytics', () => {
@@ -72,7 +81,9 @@ test('componentes de aprendizagem aceitam conteúdo detalhado', () => {
   const step = fs.readFileSync(path.join(base, 'StepItem.vue'), 'utf8')
   const screenshot = fs.readFileSync(path.join(base, 'ScreenshotPlaceholder.vue'), 'utf8')
   const video = fs.readFileSync(path.join(base, 'VideoSection.vue'), 'utf8')
-  for (const prop of ['description', 'action', 'expected', 'tip', 'alert', 'screenshot', 'caption', 'alt']) assert.match(step, new RegExp(`${prop}\\?`))
+  for (const prop of ['description', 'action', 'expected', 'tip', 'alert', 'screenshot', 'caption', 'alt', 'screenshotTitle', 'screenshotDescription']) assert.match(step, new RegExp(`${prop}\\?`))
+  assert.match(step, /withBase/)
+  assert.match(step, /useEditorialMode/)
   assert.doesNotMatch(step, /number\?/)
   assert.match(screenshot, /framing\?/)
   for (const prop of ['status', 'objective', 'script', 'transcript', 'provider', 'url', 'thumbnail', 'topics']) assert.match(video, new RegExp(`${prop}\\?`))
@@ -144,4 +155,37 @@ test('identidade institucional possui marcas e rodapé global', () => {
   const footer = fs.readFileSync(path.join(docsRoot, '.vitepress/theme/components/InstitutionalFooter.vue'), 'utf8')
   assert.match(layout, /<InstitutionalFooter/)
   assert.match(footer, /Centro de Referência em Educação a Distância/)
+})
+
+test('catálogos por área têm conjuntos próprios e rotas válidas', async () => {
+  const source = fs.readFileSync(path.join(docsRoot, '.vitepress/data/catalog.ts'), 'utf8')
+  const { code } = await transform(source, { loader: 'ts', format: 'esm' })
+  const module = await import(`data:text/javascript;base64,${Buffer.from(code).toString('base64')}`)
+  const items = module.catalog
+  const titlesFor = (area) => items.filter((item) => item.relatedAreas.includes(area)).map((item) => item.title)
+  const comunicacao = titlesFor('comunicacao')
+  const avaliacao = titlesFor('avaliacao')
+  const recursos = titlesFor('recursos')
+  const atividades = titlesFor('atividades')
+  assert.ok(comunicacao.includes('Atividade Fórum'))
+  assert.ok(!comunicacao.includes('Recurso Arquivo'))
+  assert.ok(avaliacao.includes('Atividade Tarefa'))
+  assert.ok(avaliacao.includes('Atividade Questionário'))
+  assert.ok(recursos.includes('Recurso Arquivo'))
+  assert.ok(!recursos.includes('Atividade Tarefa'))
+  assert.ok(atividades.includes('Atividade Tarefa'))
+  assert.notDeepEqual(comunicacao, avaliacao)
+  for (const item of items) {
+    const route = item.href.replace(/^\//, '').replace(/\.html$/, '.md')
+    assert.ok(fs.existsSync(path.join(docsRoot, route)), `rota ausente no catálogo: ${item.href}`)
+  }
+})
+
+test('rodapé cobre o curtain fixo e o vídeo planejado permanece público', () => {
+  const css = fs.readFileSync(path.join(docsRoot, '.vitepress/theme/style.css'), 'utf8')
+  const video = fs.readFileSync(path.join(docsRoot, '.vitepress/theme/components/VideoSection.vue'), 'utf8')
+  assert.match(css, /\.cread-footer\s*\{[^}]*position:\s*relative[^}]*z-index:\s*20[^}]*overflow:\s*clip/s)
+  assert.doesNotMatch(video, /<section\s+v-if="isPublished \|\| editorialMode"/)
+  assert.match(video, /Vídeo em produção/)
+  assert.match(video, /Tópicos previstos/)
 })

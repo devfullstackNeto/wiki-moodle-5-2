@@ -1,6 +1,6 @@
 ---
 title: Relatórios
-description: Acesse orientações consolidadas sobre relatórios.
+description: Escolha relatórios, filtros e evidências adequados para cada pergunta de acompanhamento.
 category: Relatórios
 audience:
   - Todos os públicos
@@ -13,11 +13,11 @@ moodleVersion: 5.2.x
 status: em-revisao
 lastReviewed: 2026-08-03
 ---
-<ObjectiveCard>Acesse orientações consolidadas sobre relatórios.</ObjectiveCard>
+<ObjectiveCard>Consulte logs, participação, conclusão, notas e resultados de atividades sem confundir evento com aprendizagem.</ObjectiveCard>
 
-A área **Relatórios** reúne conteúdos consolidados que antes estavam fragmentados na Wiki.
+A área **Relatórios** reúne fontes de eventos, participação, conclusão, notas, tentativas e monitoramento responsável.
 
-<ContentCatalog  />
+<ContentCatalog related-area="relatorios" />
 
 <section class="hub-guide">
 <span class="section-kicker">Rota de aprendizagem</span>

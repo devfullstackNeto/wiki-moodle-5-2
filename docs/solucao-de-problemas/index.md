@@ -1,6 +1,6 @@
 ---
 title: Solução de problemas
-description: Acesse orientações consolidadas sobre solução de problemas.
+description: Diagnostique problemas por sintoma e preserve evidências antes de alterar configurações.
 category: Solução de problemas
 audience:
   - Todos os públicos
@@ -13,11 +13,11 @@ moodleVersion: 5.2.x
 status: em-revisao
 lastReviewed: 2026-08-03
 ---
-<ObjectiveCard>Acesse orientações consolidadas sobre solução de problemas.</ObjectiveCard>
+<ObjectiveCard>Identifique o sintoma, teste causas prováveis e reúna informações úteis para resolver ou solicitar suporte.</ObjectiveCard>
 
-A área **Solução de problemas** reúne conteúdos consolidados que antes estavam fragmentados na Wiki.
+A área **Solução de problemas** organiza diagnósticos de acesso, disponibilidade, arquivos, tarefas, notas, conclusão, grupos, questionários e vídeos.
 
-<ContentCatalog  />
+<ContentCatalog related-area="solucao-de-problemas" />
 
 <section class="hub-guide">
 <span class="section-kicker">Rota de aprendizagem</span>

@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Portal Moodle 5.2 | CREaD IFMT
+title: Wiki Moodle | CREaD IFMT
 titleTemplate: false
-description: Central de aprendizagem para ensinar, aprender, acompanhar e organizar cursos no Moodle 5.2.x.
+description: Base de conhecimento e apoio ao uso do Moodle 5.2.x do CREaD IFMT.
 category: Início
 audience:
   - Todos os públicos
@@ -148,7 +148,7 @@ lastReviewed: 2026-08-03
     <p>Estatísticas derivadas do conteúdo versionado no portal.</p>
   </div>
   <div class="stat-grid">
-    <div class="stat-card"><strong>105</strong><span>páginas temáticas</span></div>
+    <div class="stat-card"><strong>107</strong><span>páginas temáticas</span></div>
     <div class="stat-card"><strong>15</strong><span>atividades detalhadas</span></div>
     <div class="stat-card"><strong>7</strong><span>recursos nativos</span></div>
     <div class="stat-card"><strong>10</strong><span>comparações práticas</span></div>

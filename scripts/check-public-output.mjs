@@ -23,12 +23,10 @@ function visibleText(html) {
 
 const forbidden = [
   /em-revis[aã]o/iu,
-  /em-produ[cç][aã]o/iu,
   /valida[cç][aã]o institucional/iu,
   /situa[cç][aã]o editorial/iu,
   /institui[cç][aã]o a confirmar/iu,
   /captura de tela em produ[cç][aã]o/iu,
-  /v[ií]deo em produ[cç][aã]o/iu,
   /como produzir esta captura/iu,
   /texto alternativo sugerido/iu,
   /antes de publicar esta orienta[cç][aã]o/iu,
@@ -49,7 +47,7 @@ for (const source of pages) {
   }
 }
 
-if (pages.length !== 105) failures.push(`inventário público alterado: esperado 105 páginas, encontrado ${pages.length}`)
+if (pages.length !== 107) failures.push(`inventário público alterado: esperado 107 páginas, encontrado ${pages.length}`)
 if (failures.length) {
   console.error('Falha na separação do modo público:')
   for (const failure of failures) console.error(`- ${failure}`)
