@@ -32,10 +32,10 @@ Rubricas descrevem níveis por critério; guias usam critérios com pontuação 
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Transforme critérios em dimensões" description="Escreva aspectos observáveis e sem sobreposição." expected="A decisão “Transforme critérios em dimensões” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Defina níveis ou descritores" description="Diferencie qualidade com linguagem específica e coerente." expected="A decisão “Defina níveis ou descritores” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Configure a pontuação" description="Confira pesos, nota máxima e conversão para a atividade." expected="A decisão “Configure a pontuação” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Aplique a um exemplo" description="Avalie uma produção fictícia e revise ambiguidades antes de publicar." expected="A decisão “Aplique a um exemplo” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Transforme critérios em dimensões" description="Escreva aspectos observáveis e sem sobreposição." expected="A decisão “Transforme critérios em dimensões” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina níveis ou descritores" description="Diferencie qualidade com linguagem específica e coerente." expected="A decisão “Defina níveis ou descritores” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Configure a pontuação" description="Confira pesos, nota máxima e conversão para a atividade." expected="A decisão “Configure a pontuação” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Aplique a um exemplo" description="Avalie uma produção fictícia e revise ambiguidades antes de publicar." expected="A decisão “Aplique a um exemplo” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Avaliar com rubricas e guias — demonstração guiada" description="Publique critérios e aplique avaliação avançada em atividades compatíveis." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Transforme critérios em dimensões","Defina níveis ou descritores","Configure a pontuação","Aplique a um exemplo"]' />

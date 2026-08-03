@@ -32,10 +32,10 @@ Configurações do curso afetam navegação, relatórios e experiência. Não al
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Revise identidade e datas" description="Confira nome, nome breve, início, término e visibilidade." expected="A decisão “Revise identidade e datas” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Escolha formato e aparência" description="Defina seções, layout, idioma e arquivos com base no percurso." expected="A decisão “Escolha formato e aparência” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Configure grupos e acompanhamento" description="Aplique modalidade e conclusão apenas quando forem usadas." expected="A decisão “Configure grupos e acompanhamento” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste o curso como participante" description="Verifique acesso, navegação, calendário, notas e itens ocultos." expected="A decisão “Teste o curso como participante” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise identidade e datas" description="Confira nome, nome breve, início, término e visibilidade." expected="A decisão “Revise identidade e datas” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escolha formato e aparência" description="Defina seções, layout, idioma e arquivos com base no percurso." expected="A decisão “Escolha formato e aparência” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Configure grupos e acompanhamento" description="Aplique modalidade e conclusão apenas quando forem usadas." expected="A decisão “Configure grupos e acompanhamento” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste o curso como participante" description="Verifique acesso, navegação, calendário, notas e itens ocultos." expected="A decisão “Teste o curso como participante” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Configurar o curso — demonstração guiada" description="Revise identificação, datas, formato, aparência, grupos e acompanhamento." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Revise identidade e datas","Escolha formato e aparência","Configure grupos e acompanhamento","Teste o curso como participante"]' />

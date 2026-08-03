@@ -32,10 +32,10 @@ Fórum organiza conversa; Wiki constrói páginas; Glossário organiza conceitos
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Defina o produto coletivo" description="Explique o que será construído e como contribuições serão combinadas." expected="A decisão “Defina o produto coletivo” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Escolha a atividade adequada" description="Compare Fórum, Wiki, Base de dados e Glossário pelo tipo de interação." expected="A decisão “Escolha a atividade adequada” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Distribua papéis e etapas" description="Defina contribuição inicial, revisão, síntese e responsabilidade final." expected="A decisão “Distribua papéis e etapas” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Acompanhe processo e autoria" description="Use registros com responsabilidade e ofereça feedback durante a construção." expected="A decisão “Acompanhe processo e autoria” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina o produto coletivo" description="Explique o que será construído e como contribuições serão combinadas." expected="A decisão “Defina o produto coletivo” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escolha a atividade adequada" description="Compare Fórum, Wiki, Base de dados e Glossário pelo tipo de interação." expected="A decisão “Escolha a atividade adequada” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Distribua papéis e etapas" description="Defina contribuição inicial, revisão, síntese e responsabilidade final." expected="A decisão “Distribua papéis e etapas” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Acompanhe processo e autoria" description="Use registros com responsabilidade e ofereça feedback durante a construção." expected="A decisão “Acompanhe processo e autoria” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Planejar colaboração — demonstração guiada" description="Escolha Fórum, Wiki, Glossário ou Base de dados conforme o produto coletivo." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina o produto coletivo","Escolha a atividade adequada","Distribua papéis e etapas","Acompanhe processo e autoria"]' />

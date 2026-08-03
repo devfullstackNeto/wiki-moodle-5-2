@@ -31,10 +31,10 @@ Peça ao estudante a mensagem e o horário. Compare com a configuração, sem re
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Confirme curso, pessoa e horário" description="Descubra quem não vê o item e desde quando." expected="A decisão “Confirme curso, pessoa e horário” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Revise visibilidade e datas" description="Verifique ocultação, abertura, fechamento e seção do curso." expected="A decisão “Revise visibilidade e datas” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Analise restrições e grupos" description="Leia todas as condições e combinações aplicadas." expected="A decisão “Analise restrições e grupos” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste com o mesmo perfil" description="Use conta autorizada e registre qual condição impede o acesso." expected="A decisão “Teste com o mesmo perfil” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Confirme curso, pessoa e horário" description="Descubra quem não vê o item e desde quando." expected="A decisão “Confirme curso, pessoa e horário” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise visibilidade e datas" description="Verifique ocultação, abertura, fechamento e seção do curso." expected="A decisão “Revise visibilidade e datas” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Analise restrições e grupos" description="Leia todas as condições e combinações aplicadas." expected="A decisão “Analise restrições e grupos” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste com o mesmo perfil" description="Use conta autorizada e registre qual condição impede o acesso." expected="A decisão “Teste com o mesmo perfil” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Resolver atividade indisponível — demonstração guiada" description="Verifique visibilidade, datas, restrições, grupos e papel." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Confirme curso, pessoa e horário","Revise visibilidade e datas","Analise restrições e grupos","Teste com o mesmo perfil"]' />

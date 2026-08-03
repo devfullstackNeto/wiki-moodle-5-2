@@ -32,10 +32,10 @@ Use logs para eventos, participação para ações em atividades, conclusão par
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Escreva a pergunta antes de abrir o menu" description="Defina pessoa, período, atividade e evidência necessária." expected="A decisão “Escreva a pergunta antes de abrir o menu” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Escolha a fonte mais direta" description="Prefira o relatório da atividade quando a pergunta for específica." expected="A decisão “Escolha a fonte mais direta” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Aplique o menor conjunto de filtros" description="Reduza ruído sem excluir casos relevantes." expected="A decisão “Aplique o menor conjunto de filtros” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Valide interpretação e privacidade" description="Registre limites e compartilhe somente o necessário." expected="A decisão “Valide interpretação e privacidade” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escreva a pergunta antes de abrir o menu" description="Defina pessoa, período, atividade e evidência necessária." expected="A decisão “Escreva a pergunta antes de abrir o menu” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escolha a fonte mais direta" description="Prefira o relatório da atividade quando a pergunta for específica." expected="A decisão “Escolha a fonte mais direta” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Aplique o menor conjunto de filtros" description="Reduza ruído sem excluir casos relevantes." expected="A decisão “Aplique o menor conjunto de filtros” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Valide interpretação e privacidade" description="Registre limites e compartilhe somente o necessário." expected="A decisão “Valide interpretação e privacidade” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Escolher o relatório adequado — demonstração guiada" description="Relacione pergunta, fonte, granularidade e limite de interpretação." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Escreva a pergunta antes de abrir o menu","Escolha a fonte mais direta","Aplique o menor conjunto de filtros","Valide interpretação e privacidade"]' />

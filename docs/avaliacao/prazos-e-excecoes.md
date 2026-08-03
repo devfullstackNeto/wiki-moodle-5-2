@@ -32,10 +32,10 @@ Abertura, entrega e limite não são sinônimos. Exceções existem em atividade
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Mapeie todas as datas" description="Diferencie abertura, entrega, limite, fechamento e data esperada." expected="A decisão “Mapeie todas as datas” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Registre a necessidade da exceção" description="Use apenas a informação mínima e preserve a justificativa conforme a política." expected="A decisão “Registre a necessidade da exceção” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Configure usuário ou grupo" description="Altere somente os campos necessários e confira precedência entre exceções." expected="A decisão “Configure usuário ou grupo” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste calendário e acesso" description="Verifique a nova condição com o perfil afetado sem alterar a turma inteira." expected="A decisão “Teste calendário e acesso” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Mapeie todas as datas" description="Diferencie abertura, entrega, limite, fechamento e data esperada." expected="A decisão “Mapeie todas as datas” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Registre a necessidade da exceção" description="Use apenas a informação mínima e preserve a justificativa conforme a política." expected="A decisão “Registre a necessidade da exceção” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Configure usuário ou grupo" description="Altere somente os campos necessários e confira precedência entre exceções." expected="A decisão “Configure usuário ou grupo” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste calendário e acesso" description="Verifique a nova condição com o perfil afetado sem alterar a turma inteira." expected="A decisão “Teste calendário e acesso” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Gerenciar prazos e exceções — demonstração guiada" description="Diferencie datas e aplique ajustes por usuário ou grupo somente em módulos compatíveis." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Mapeie todas as datas","Registre a necessidade da exceção","Configure usuário ou grupo","Teste calendário e acesso"]' />

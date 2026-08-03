@@ -32,10 +32,10 @@ Relatórios disponíveis dependem dos plugins e capacidades. Confira itens ocult
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Escolha relatório do avaliador ou usuário" description="Use a matriz para conferência e a visão individual para experiência do estudante." expected="A decisão “Escolha relatório do avaliador ou usuário” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Verifique origem e estado do item" description="Identifique atividade, nota manual, ocultação, bloqueio e substituição." expected="A decisão “Verifique origem e estado do item” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Compare subtotal e total" description="Revise categoria, agregação, pesos e valores vazios." expected="A decisão “Compare subtotal e total” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Confira feedback e visibilidade" description="Garanta que o estudante vê exatamente o que foi liberado." expected="A decisão “Confira feedback e visibilidade” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escolha relatório do avaliador ou usuário" description="Use a matriz para conferência e a visão individual para experiência do estudante." expected="A decisão “Escolha relatório do avaliador ou usuário” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Verifique origem e estado do item" description="Identifique atividade, nota manual, ocultação, bloqueio e substituição." expected="A decisão “Verifique origem e estado do item” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Compare subtotal e total" description="Revise categoria, agregação, pesos e valores vazios." expected="A decisão “Compare subtotal e total” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Confira feedback e visibilidade" description="Garanta que o estudante vê exatamente o que foi liberado." expected="A decisão “Confira feedback e visibilidade” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Consultar relatórios de notas — demonstração guiada" description="Escolha visão geral, relatório do usuário, histórico ou visão única conforme a pergunta." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Escolha relatório do avaliador ou usuário","Verifique origem e estado do item","Compare subtotal e total","Confira feedback e visibilidade"]' />

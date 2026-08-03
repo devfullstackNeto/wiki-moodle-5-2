@@ -32,10 +32,10 @@ A criação e sincronização pelo SUAP são integrações do IFMT. Os passos, p
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Identifique o dado de origem" description="Registre quais cursos, inscrições, papéis ou grupos vêm do SUAP." expected="A decisão “Identifique o dado de origem” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Confirme a rotina de sincronização" description="Verifique frequência, responsável e tratamento de divergências." expected="A decisão “Confirme a rotina de sincronização” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Evite sobrescrever sem autorização" description="Descubra se mudanças manuais serão revertidas na próxima execução." expected="A decisão “Evite sobrescrever sem autorização” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste e reúna evidências" description="Use conta autorizada e registre identificadores sem expor dados pessoais." expected="A decisão “Teste e reúna evidências” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Identifique o dado de origem" description="Registre quais cursos, inscrições, papéis ou grupos vêm do SUAP." expected="A decisão “Identifique o dado de origem” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Confirme a rotina de sincronização" description="Verifique frequência, responsável e tratamento de divergências." expected="A decisão “Confirme a rotina de sincronização” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Evite sobrescrever sem autorização" description="Descubra se mudanças manuais serão revertidas na próxima execução." expected="A decisão “Evite sobrescrever sem autorização” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste e reúna evidências" description="Use conta autorizada e registre identificadores sem expor dados pessoais." expected="A decisão “Teste e reúna evidências” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Criar e sincronizar a sala pelo SUAP — demonstração guiada" description="Documente o fluxo institucional sem confundi-lo com funcionalidade nativa do Moodle." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Identifique o dado de origem","Confirme a rotina de sincronização","Evite sobrescrever sem autorização","Teste e reúna evidências"]' />

@@ -32,10 +32,10 @@ Ocultar controla exibição; restrição avalia condições. O modo “disponív
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Defina quem deve acessar" description="Diferencie ocultação, restrição por condição e permissão por papel." expected="A decisão “Defina quem deve acessar” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Configure a regra mínima" description="Use data, grupo, nota ou conclusão somente quando necessária." expected="A decisão “Configure a regra mínima” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Revise mensagens de restrição" description="Decida se a condição será exibida ou totalmente ocultada." expected="A decisão “Revise mensagens de restrição” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste perfis e combinações" description="Confirme acesso antes, durante e depois de cada condição." expected="A decisão “Teste perfis e combinações” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina quem deve acessar" description="Diferencie ocultação, restrição por condição e permissão por papel." expected="A decisão “Defina quem deve acessar” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Configure a regra mínima" description="Use data, grupo, nota ou conclusão somente quando necessária." expected="A decisão “Configure a regra mínima” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise mensagens de restrição" description="Decida se a condição será exibida ou totalmente ocultada." expected="A decisão “Revise mensagens de restrição” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste perfis e combinações" description="Confirme acesso antes, durante e depois de cada condição." expected="A decisão “Teste perfis e combinações” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Controlar visibilidade e acesso — demonstração guiada" description="Diferencie ocultar, disponibilizar fora da página e aplicar condições." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina quem deve acessar","Configure a regra mínima","Revise mensagens de restrição","Teste perfis e combinações"]' />

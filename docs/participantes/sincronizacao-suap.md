@@ -32,10 +32,10 @@ O Moodle recebe dados por integração definida pelo IFMT. Não corrija manualme
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Confirme o vínculo institucional" description="Identifique curso, turma, papel e identificador esperados nos dois sistemas." expected="A decisão “Confirme o vínculo institucional” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Verifique a última sincronização" description="Registre horário, estado e mensagens disponíveis." expected="A decisão “Verifique a última sincronização” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Compare divergências sem editar em massa" description="Separe atraso de rotina, dado de origem e falha de associação." expected="A decisão “Compare divergências sem editar em massa” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Encaminhe evidências ao responsável" description="Informe identificadores mínimos, curso e horário sem expor credenciais." expected="A decisão “Encaminhe evidências ao responsável” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Confirme o vínculo institucional" description="Identifique curso, turma, papel e identificador esperados nos dois sistemas." expected="A decisão “Confirme o vínculo institucional” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Verifique a última sincronização" description="Registre horário, estado e mensagens disponíveis." expected="A decisão “Verifique a última sincronização” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Compare divergências sem editar em massa" description="Separe atraso de rotina, dado de origem e falha de associação." expected="A decisão “Compare divergências sem editar em massa” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Encaminhe evidências ao responsável" description="Informe identificadores mínimos, curso e horário sem expor credenciais." expected="A decisão “Encaminhe evidências ao responsável” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Validar sincronização de participantes pelo SUAP — demonstração guiada" description="Encaminhe divergências de vínculo pelo processo institucional correto." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Confirme o vínculo institucional","Verifique a última sincronização","Compare divergências sem editar em massa","Encaminhe evidências ao responsável"]' />

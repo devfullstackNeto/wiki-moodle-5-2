@@ -32,10 +32,10 @@ Publique uma questão que exija argumento, combine critérios, acompanhe sem res
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Prepare a abertura" description="Publique questão, critérios de contribuição e regra de convivência." expected="A decisão “Prepare a abertura” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Acompanhe sem centralizar" description="Use perguntas de aprofundamento e conecte contribuições entre participantes." expected="A decisão “Acompanhe sem centralizar” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Intervenha em dúvidas e conflitos" description="Diferencie equívoco conceitual, problema técnico e conduta inadequada." expected="A decisão “Intervenha em dúvidas e conflitos” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Produza uma síntese" description="Retome evidências, esclareça pontos e indique a próxima ação." expected="A decisão “Produza uma síntese” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Prepare a abertura" description="Publique questão, critérios de contribuição e regra de convivência." expected="A decisão “Prepare a abertura” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Acompanhe sem centralizar" description="Use perguntas de aprofundamento e conecte contribuições entre participantes." expected="A decisão “Acompanhe sem centralizar” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Intervenha em dúvidas e conflitos" description="Diferencie equívoco conceitual, problema técnico e conduta inadequada." expected="A decisão “Intervenha em dúvidas e conflitos” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Produza uma síntese" description="Retome evidências, esclareça pontos e indique a próxima ação." expected="A decisão “Produza uma síntese” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Mediar discussões em fórum — demonstração guiada" description="Transforme postagens em investigação, diálogo e síntese." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Prepare a abertura","Acompanhe sem centralizar","Intervenha em dúvidas e conflitos","Produza uma síntese"]' />

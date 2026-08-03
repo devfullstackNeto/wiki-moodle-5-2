@@ -32,10 +32,10 @@ A lista de participantes apresenta informações conforme capacidade. Use filtro
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Abra Participantes no curso" description="Confirme que está no curso e período corretos." expected="A decisão “Abra Participantes no curso” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Use filtros com finalidade" description="Pesquise por nome, papel, grupo, estado ou período quando disponíveis." expected="A decisão “Use filtros com finalidade” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Leia inscrições e papéis" description="Diferencie acesso ao curso de associação a grupo e permissão." expected="A decisão “Leia inscrições e papéis” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Proteja e descarte os dados" description="Evite exportação desnecessária e compartilhe apenas com pessoas autorizadas." expected="A decisão “Proteja e descarte os dados” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Abra Participantes no curso" description="Confirme que está no curso e período corretos." expected="A decisão “Abra Participantes no curso” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Use filtros com finalidade" description="Pesquise por nome, papel, grupo, estado ou período quando disponíveis." expected="A decisão “Use filtros com finalidade” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Leia inscrições e papéis" description="Diferencie acesso ao curso de associação a grupo e permissão." expected="A decisão “Leia inscrições e papéis” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Proteja e descarte os dados" description="Evite exportação desnecessária e compartilhe apenas com pessoas autorizadas." expected="A decisão “Proteja e descarte os dados” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Consultar participantes — demonstração guiada" description="Filtre pessoas, status e grupos sem inferir aprendizagem apenas pelo último acesso." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Abra Participantes no curso","Use filtros com finalidade","Leia inscrições e papéis","Proteja e descarte os dados"]' />

@@ -31,10 +31,10 @@ Teste o download com conta de estudante. Se o arquivo baixa mas não abre, valid
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Identifique arquivo e comportamento" description="Registre nome, tipo, tamanho e se ocorre abertura, download ou erro." expected="A decisão “Identifique arquivo e comportamento” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Teste o próprio arquivo" description="Baixe, verifique integridade e tente em aplicativo compatível." expected="A decisão “Teste o próprio arquivo” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Compare navegador e dispositivo" description="Desative bloqueios apenas de forma segura e teste outra rede quando autorizado." expected="A decisão “Compare navegador e dispositivo” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Revise publicação e alternativa" description="Confirme permissões, aparência e ofereça formato acessível equivalente." expected="A decisão “Revise publicação e alternativa” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Identifique arquivo e comportamento" description="Registre nome, tipo, tamanho e se ocorre abertura, download ou erro." expected="A decisão “Identifique arquivo e comportamento” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste o próprio arquivo" description="Baixe, verifique integridade e tente em aplicativo compatível." expected="A decisão “Teste o próprio arquivo” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Compare navegador e dispositivo" description="Desative bloqueios apenas de forma segura e teste outra rede quando autorizado." expected="A decisão “Compare navegador e dispositivo” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise publicação e alternativa" description="Confirme permissões, aparência e ofereça formato acessível equivalente." expected="A decisão “Revise publicação e alternativa” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Resolver arquivo que não abre — demonstração guiada" description="Verifique permissão, integridade, formato, tamanho e aplicativo." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Identifique arquivo e comportamento","Teste o próprio arquivo","Compare navegador e dispositivo","Revise publicação e alternativa"]' />

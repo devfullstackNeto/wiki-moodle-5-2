@@ -32,10 +32,10 @@ Colete apenas o necessário, evite dados reais em demonstrações e confirme aut
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Minimize os dados usados" description="Colete e exiba somente o necessário para a finalidade pedagógica." expected="A decisão “Minimize os dados usados” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Revise público e permissões" description="Confirme quem pode ver, editar, exportar ou compartilhar cada informação." expected="A decisão “Revise público e permissões” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Prepare exemplos fictícios" description="Remova nomes, fotos, identificadores, notas e metadados de capturas." expected="A decisão “Prepare exemplos fictícios” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Registre incidentes pelo canal correto" description="Preserve evidências sem ampliar a exposição e siga a política institucional." expected="A decisão “Registre incidentes pelo canal correto” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Minimize os dados usados" description="Colete e exiba somente o necessário para a finalidade pedagógica." expected="A decisão “Minimize os dados usados” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise público e permissões" description="Confirme quem pode ver, editar, exportar ou compartilhar cada informação." expected="A decisão “Revise público e permissões” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Prepare exemplos fictícios" description="Remova nomes, fotos, identificadores, notas e metadados de capturas." expected="A decisão “Prepare exemplos fictícios” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Registre incidentes pelo canal correto" description="Preserve evidências sem ampliar a exposição e siga a política institucional." expected="A decisão “Registre incidentes pelo canal correto” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Proteger dados e usar materiais com responsabilidade — demonstração guiada" description="Minimize dados e respeite direitos, contexto e acessibilidade." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Minimize os dados usados","Revise público e permissões","Prepare exemplos fictícios","Registre incidentes pelo canal correto"]' />

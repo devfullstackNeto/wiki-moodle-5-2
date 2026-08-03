@@ -31,10 +31,10 @@ Confira a atividade, o item no Livro de notas, a visibilidade e o relatório do 
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Confirme se a atividade gerou nota" description="Verifique correção pendente, estado da tentativa e método de avaliação." expected="A decisão “Confirme se a atividade gerou nota” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Abra o item no Livro de notas" description="Procure ocultação, bloqueio, substituição e categoria." expected="A decisão “Abra o item no Livro de notas” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Compare relatório do avaliador e usuário" description="Diferencie valor calculado de informação liberada." expected="A decisão “Compare relatório do avaliador e usuário” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Revise aprovação e conclusão" description="Confira limiar, visibilidade e dependências conectadas." expected="A decisão “Revise aprovação e conclusão” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Confirme se a atividade gerou nota" description="Verifique correção pendente, estado da tentativa e método de avaliação." expected="A decisão “Confirme se a atividade gerou nota” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Abra o item no Livro de notas" description="Procure ocultação, bloqueio, substituição e categoria." expected="A decisão “Abra o item no Livro de notas” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Compare relatório do avaliador e usuário" description="Diferencie valor calculado de informação liberada." expected="A decisão “Compare relatório do avaliador e usuário” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise aprovação e conclusão" description="Confira limiar, visibilidade e dependências conectadas." expected="A decisão “Revise aprovação e conclusão” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Resolver nota que não aparece — demonstração guiada" description="Diferencie nota ausente, oculta, não liberada e cálculo inesperado." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Confirme se a atividade gerou nota","Abra o item no Livro de notas","Compare relatório do avaliador e usuário","Revise aprovação e conclusão"]' />

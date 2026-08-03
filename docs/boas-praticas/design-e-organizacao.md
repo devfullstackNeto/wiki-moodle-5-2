@@ -32,10 +32,10 @@ Uma seção deve dizer o que aprender, o que fazer e como verificar. Use nomencl
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Mapeie o percurso principal" description="Defina a sequência que o estudante deve reconhecer na página do curso." expected="A decisão “Mapeie o percurso principal” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Padronize nomes e seções" description="Use verbos, títulos paralelos e quantidade previsível de itens." expected="A decisão “Padronize nomes e seções” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Reduza carga visual" description="Agrupe o que pertence junto e remova repetição ou decoração sem função." expected="A decisão “Reduza carga visual” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste orientação e retomada" description="Peça a uma conta de teste para localizar a próxima ação e retornar ao ponto anterior." expected="A decisão “Teste orientação e retomada” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Mapeie o percurso principal" description="Defina a sequência que o estudante deve reconhecer na página do curso." expected="A decisão “Mapeie o percurso principal” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Padronize nomes e seções" description="Use verbos, títulos paralelos e quantidade previsível de itens." expected="A decisão “Padronize nomes e seções” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Reduza carga visual" description="Agrupe o que pertence junto e remova repetição ou decoração sem função." expected="A decisão “Reduza carga visual” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste orientação e retomada" description="Peça a uma conta de teste para localizar a próxima ação e retornar ao ponto anterior." expected="A decisão “Teste orientação e retomada” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Organizar cursos para aprender — demonstração guiada" description="Alinhe objetivos, sequência, atividades, avaliação e carga de navegação." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Mapeie o percurso principal","Padronize nomes e seções","Reduza carga visual","Teste orientação e retomada"]' />

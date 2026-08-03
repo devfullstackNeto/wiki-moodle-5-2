@@ -32,10 +32,10 @@ A agregação determina como itens formam o total. Pesos, exclusões, crédito e
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Traduza o plano em uma regra" description="Liste itens, notas máximas, pesos e tratamento de valores vazios." expected="A decisão “Traduza o plano em uma regra” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Escolha a agregação" description="Compare a regra publicada com os métodos disponíveis na categoria." expected="A decisão “Escolha a agregação” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Simule casos extremos" description="Calcule exemplos com zero, ausência, nota máxima e item vazio." expected="A decisão “Simule casos extremos” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Confira a visão do estudante" description="Verifique subtotais, total e arredondamento no relatório do usuário." expected="A decisão “Confira a visão do estudante” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Traduza o plano em uma regra" description="Liste itens, notas máximas, pesos e tratamento de valores vazios." expected="A decisão “Traduza o plano em uma regra” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escolha a agregação" description="Compare a regra publicada com os métodos disponíveis na categoria." expected="A decisão “Escolha a agregação” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Simule casos extremos" description="Calcule exemplos com zero, ausência, nota máxima e item vazio." expected="A decisão “Simule casos extremos” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Confira a visão do estudante" description="Verifique subtotais, total e arredondamento no relatório do usuário." expected="A decisão “Confira a visão do estudante” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Configurar cálculo e agregação — demonstração guiada" description="Combine notas de forma auditável e coerente com o plano de ensino." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Traduza o plano em uma regra","Escolha a agregação","Simule casos extremos","Confira a visão do estudante"]' />

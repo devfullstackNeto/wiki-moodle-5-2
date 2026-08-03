@@ -32,10 +32,10 @@ Avisos costuma ser um fórum especial do curso; mensagens são pessoais. Existê
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Escolha entre aviso e mensagem" description="Use aviso para comunicação ampla do curso e mensagem para contato direcionado." expected="A decisão “Escolha entre aviso e mensagem” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Escreva assunto e ação esperada" description="Comece pela informação principal, prazo e destino." expected="A decisão “Escreva assunto e ação esperada” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Revise destinatários" description="Confirme curso, grupo e pessoas antes de enviar." expected="A decisão “Revise destinatários” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Verifique publicação e notificação" description="Confira o registro no Moodle e considere preferências individuais." expected="A decisão “Verifique publicação e notificação” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escolha entre aviso e mensagem" description="Use aviso para comunicação ampla do curso e mensagem para contato direcionado." expected="A decisão “Escolha entre aviso e mensagem” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escreva assunto e ação esperada" description="Comece pela informação principal, prazo e destino." expected="A decisão “Escreva assunto e ação esperada” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise destinatários" description="Confirme curso, grupo e pessoas antes de enviar." expected="A decisão “Revise destinatários” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Verifique publicação e notificação" description="Confira o registro no Moodle e considere preferências individuais." expected="A decisão “Verifique publicação e notificação” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Usar avisos e mensagens — demonstração guiada" description="Escolha comunicação de turma ou conversa direta com expectativa clara." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Escolha entre aviso e mensagem","Escreva assunto e ação esperada","Revise destinatários","Verifique publicação e notificação"]' />

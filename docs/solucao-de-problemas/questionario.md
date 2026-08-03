@@ -31,10 +31,10 @@ Não edite questões depois de tentativas sem avaliar o impacto. Use exceção s
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Registre tentativa e momento" description="Identifique se o problema ocorre ao abrir, responder, enviar ou revisar." expected="A decisão “Registre tentativa e momento” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Revise tempo, datas e exceções" description="Compare condições da turma, usuário e grupo." expected="A decisão “Revise tempo, datas e exceções” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Verifique estado e questões" description="Procure tentativa em andamento, encerrada, discursiva ou sem correção." expected="A decisão “Verifique estado e questões” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste revisão e nota" description="Confirme o que deveria aparecer naquele momento e preserve a tentativa existente." expected="A decisão “Teste revisão e nota” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Registre tentativa e momento" description="Identifique se o problema ocorre ao abrir, responder, enviar ou revisar." expected="A decisão “Registre tentativa e momento” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise tempo, datas e exceções" description="Compare condições da turma, usuário e grupo." expected="A decisão “Revise tempo, datas e exceções” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Verifique estado e questões" description="Procure tentativa em andamento, encerrada, discursiva ou sem correção." expected="A decisão “Verifique estado e questões” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste revisão e nota" description="Confirme o que deveria aparecer naquele momento e preserve a tentativa existente." expected="A decisão “Teste revisão e nota” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Resolver problemas com questionário — demonstração guiada" description="Identifique disponibilidade, tentativa, tempo, senha, comportamento e revisão." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Registre tentativa e momento","Revise tempo, datas e exceções","Verifique estado e questões","Teste revisão e nota"]' />

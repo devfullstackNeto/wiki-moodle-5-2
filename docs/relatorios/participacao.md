@@ -32,10 +32,10 @@ O relatório de participação depende do módulo e do período. Uma ação ause
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Escolha atividade e ação" description="Defina se precisa de visualização, publicação, envio ou outro evento disponível." expected="A decisão “Escolha atividade e ação” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Selecione período e papel" description="Aplique filtros coerentes com a turma e o prazo da atividade." expected="A decisão “Selecione período e papel” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Compare com outra evidência" description="Relacione participação a produto, nota ou feedback sem presumir aprendizagem." expected="A decisão “Compare com outra evidência” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Use a ação em massa com cautela" description="Revise destinatários e mensagem antes de qualquer contato." expected="A decisão “Use a ação em massa com cautela” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escolha atividade e ação" description="Defina se precisa de visualização, publicação, envio ou outro evento disponível." expected="A decisão “Escolha atividade e ação” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Selecione período e papel" description="Aplique filtros coerentes com a turma e o prazo da atividade." expected="A decisão “Selecione período e papel” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Compare com outra evidência" description="Relacione participação a produto, nota ou feedback sem presumir aprendizagem." expected="A decisão “Compare com outra evidência” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Use a ação em massa com cautela" description="Revise destinatários e mensagem antes de qualquer contato." expected="A decisão “Use a ação em massa com cautela” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Consultar participação — demonstração guiada" description="Identifique quem executou ações selecionadas em uma atividade." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Escolha atividade e ação","Selecione período e papel","Compare com outra evidência","Use a ação em massa com cautela"]' />

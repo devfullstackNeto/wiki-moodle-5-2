@@ -32,10 +32,10 @@ A importação copia atividades e recursos sem dados de participação. Selecion
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Escolha importar, copiar ou restaurar" description="Use o mecanismo compatível com o escopo e a política de dados." expected="A decisão “Escolha importar, copiar ou restaurar” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Selecione somente o necessário" description="Evite trazer usuários, notas ou bancos inteiros sem finalidade." expected="A decisão “Selecione somente o necessário” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Atualize contexto e datas" description="Revise nomes, links, grupos, restrições, conclusão e referências ao período anterior." expected="A decisão “Atualize contexto e datas” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste a nova cópia" description="Percorra como estudante e confira atividades, questões e Livro de notas." expected="A decisão “Teste a nova cópia” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escolha importar, copiar ou restaurar" description="Use o mecanismo compatível com o escopo e a política de dados." expected="A decisão “Escolha importar, copiar ou restaurar” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Selecione somente o necessário" description="Evite trazer usuários, notas ou bancos inteiros sem finalidade." expected="A decisão “Selecione somente o necessário” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Atualize contexto e datas" description="Revise nomes, links, grupos, restrições, conclusão e referências ao período anterior." expected="A decisão “Atualize contexto e datas” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste a nova cópia" description="Percorra como estudante e confira atividades, questões e Livro de notas." expected="A decisão “Teste a nova cópia” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Reutilizar conteúdo de outro curso — demonstração guiada" description="Importe apenas o necessário e ajuste datas, grupos e avaliações." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Escolha importar, copiar ou restaurar","Selecione somente o necessário","Atualize contexto e datas","Teste a nova cópia"]' />

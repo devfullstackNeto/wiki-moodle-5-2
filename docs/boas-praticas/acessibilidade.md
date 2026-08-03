@@ -32,10 +32,10 @@ Use títulos em ordem, links descritivos, alt contextual e legendas. Não depend
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Percorra somente com teclado" description="Verifique foco visível, ordem, acionamento e ausência de armadilhas." expected="A decisão “Percorra somente com teclado” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Revise estrutura e linguagem" description="Confira títulos, listas, links descritivos e instruções independentes de cor." expected="A decisão “Revise estrutura e linguagem” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Valide imagens e mídia" description="Adicione texto alternativo, legenda, transcrição e controles acessíveis." expected="A decisão “Valide imagens e mídia” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste zoom e tela estreita" description="Garanta leitura sem corte ou rolagem horizontal desnecessária." expected="A decisão “Teste zoom e tela estreita” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Percorra somente com teclado" description="Verifique foco visível, ordem, acionamento e ausência de armadilhas." expected="A decisão “Percorra somente com teclado” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise estrutura e linguagem" description="Confira títulos, listas, links descritivos e instruções independentes de cor." expected="A decisão “Revise estrutura e linguagem” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Valide imagens e mídia" description="Adicione texto alternativo, legenda, transcrição e controles acessíveis." expected="A decisão “Valide imagens e mídia” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste zoom e tela estreita" description="Garanta leitura sem corte ou rolagem horizontal desnecessária." expected="A decisão “Teste zoom e tela estreita” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Criar conteúdo acessível — demonstração guiada" description="Aplique estrutura, contraste, alternativas, legendas e operação por teclado." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Percorra somente com teclado","Revise estrutura e linguagem","Valide imagens e mídia","Teste zoom e tela estreita"]' />

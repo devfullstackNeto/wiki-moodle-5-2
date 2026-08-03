@@ -32,10 +32,10 @@ Inscrição manual, autoinscrição e sincronização institucional têm regras 
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Identifique o método ativo" description="Diferencie inscrição manual, sincronização de coorte e integração institucional." expected="A decisão “Identifique o método ativo” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Confira pessoa, papel e período" description="Valide identidade, função, início, término e estado." expected="A decisão “Confira pessoa, papel e período” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Faça a alteração autorizada" description="Inscreva, suspenda ou ajuste sem remover histórico indevidamente." expected="A decisão “Faça a alteração autorizada” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste acesso e reversibilidade" description="Confirme o resultado e se uma sincronização poderá sobrescrever a mudança." expected="A decisão “Teste acesso e reversibilidade” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Identifique o método ativo" description="Diferencie inscrição manual, sincronização de coorte e integração institucional." expected="A decisão “Identifique o método ativo” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Confira pessoa, papel e período" description="Valide identidade, função, início, término e estado." expected="A decisão “Confira pessoa, papel e período” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Faça a alteração autorizada" description="Inscreva, suspenda ou ajuste sem remover histórico indevidamente." expected="A decisão “Faça a alteração autorizada” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste acesso e reversibilidade" description="Confirme o resultado e se uma sincronização poderá sobrescrever a mudança." expected="A decisão “Teste acesso e reversibilidade” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Gerenciar inscrições — demonstração guiada" description="Diferencie método, papel, período, suspensão e desinscrição." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Identifique o método ativo","Confira pessoa, papel e período","Faça a alteração autorizada","Teste acesso e reversibilidade"]' />

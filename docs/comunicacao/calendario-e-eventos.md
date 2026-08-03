@@ -32,10 +32,10 @@ Datas de atividades geram eventos. Eventos do site, curso, grupo e usuário têm
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Liste os eventos esperados" description="Relacione prazos de atividades, eventos do curso e compromissos pessoais." expected="A decisão “Liste os eventos esperados” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Abra o calendário correto" description="Confira filtros e o contexto em que o evento será criado." expected="A decisão “Abra o calendário correto” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Defina data, duração e descrição" description="Use fuso horário e instruções coerentes com a atividade vinculada." expected="A decisão “Defina data, duração e descrição” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Compare calendário e atividade" description="Garanta que mudanças de prazo também atualizem a fonte correta." expected="A decisão “Compare calendário e atividade” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Liste os eventos esperados" description="Relacione prazos de atividades, eventos do curso e compromissos pessoais." expected="A decisão “Liste os eventos esperados” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Abra o calendário correto" description="Confira filtros e o contexto em que o evento será criado." expected="A decisão “Abra o calendário correto” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina data, duração e descrição" description="Use fuso horário e instruções coerentes com a atividade vinculada." expected="A decisão “Defina data, duração e descrição” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Compare calendário e atividade" description="Garanta que mudanças de prazo também atualizem a fonte correta." expected="A decisão “Compare calendário e atividade” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Usar calendário e eventos — demonstração guiada" description="Diferencie eventos automáticos e eventos criados manualmente." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Liste os eventos esperados","Abra o calendário correto","Defina data, duração e descrição","Compare calendário e atividade"]' />

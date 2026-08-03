@@ -32,10 +32,10 @@ Cada pessoa escolhe canais permitidos. Preferências de fórum e notificações 
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Identifique a origem do evento" description="Descubra qual atividade ou ação está gerando a notificação." expected="A decisão “Identifique a origem do evento” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Abra as preferências" description="Localize as opções de notificação no menu da conta." expected="A decisão “Abra as preferências” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Escolha canal e estado" description="Ajuste web, e-mail ou móvel para conectado e desconectado, quando disponíveis." expected="A decisão “Escolha canal e estado” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Confirme com um evento seguro" description="Teste sem gerar mensagens em massa e verifique também filtros de e-mail." expected="A decisão “Confirme com um evento seguro” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Identifique a origem do evento" description="Descubra qual atividade ou ação está gerando a notificação." expected="A decisão “Identifique a origem do evento” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Abra as preferências" description="Localize as opções de notificação no menu da conta." expected="A decisão “Abra as preferências” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escolha canal e estado" description="Ajuste web, e-mail ou móvel para conectado e desconectado, quando disponíveis." expected="A decisão “Escolha canal e estado” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Confirme com um evento seguro" description="Teste sem gerar mensagens em massa e verifique também filtros de e-mail." expected="A decisão “Confirme com um evento seguro” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Configurar notificações — demonstração guiada" description="Ajuste preferências pessoais sem prometer entrega que o administrador desabilitou." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Identifique a origem do evento","Abra as preferências","Escolha canal e estado","Confirme com um evento seguro"]' />

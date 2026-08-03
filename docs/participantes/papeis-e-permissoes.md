@@ -32,10 +32,10 @@ Papel é um conjunto de capacidades atribuído em um contexto. A mesma pessoa po
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Defina a ação necessária" description="Comece pela capacidade que a pessoa precisa exercer no contexto." expected="A decisão “Defina a ação necessária” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Identifique o papel e o contexto" description="Diferencie papel no site, categoria, curso e atividade." expected="A decisão “Identifique o papel e o contexto” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Evite elevação ampla" description="Prefira a menor permissão e o menor contexto suficientes." expected="A decisão “Evite elevação ampla” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste e registre a atribuição" description="Use conta autorizada e confirme o que aparece e pode ser alterado." expected="A decisão “Teste e registre a atribuição” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina a ação necessária" description="Comece pela capacidade que a pessoa precisa exercer no contexto." expected="A decisão “Defina a ação necessária” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Identifique o papel e o contexto" description="Diferencie papel no site, categoria, curso e atividade." expected="A decisão “Identifique o papel e o contexto” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Evite elevação ampla" description="Prefira a menor permissão e o menor contexto suficientes." expected="A decisão “Evite elevação ampla” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste e registre a atribuição" description="Use conta autorizada e confirme o que aparece e pode ser alterado." expected="A decisão “Teste e registre a atribuição” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Compreender papéis e permissões — demonstração guiada" description="Relacione capacidade, papel e contexto antes de solicitar acesso." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina a ação necessária","Identifique o papel e o contexto","Evite elevação ampla","Teste e registre a atribuição"]' />

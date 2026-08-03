@@ -31,10 +31,10 @@ Edite apenas informações liberadas pela instituição. Preferências controlam
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Abra o menu do usuário" description="Localize Perfil e Preferências no menu associado à conta." expected="A decisão “Abra o menu do usuário” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Revise dados editáveis" description="Atualize somente informações autorizadas e confirme o que vem do sistema institucional." expected="A decisão “Revise dados editáveis” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Configure mensagens e notificações" description="Escolha canais e frequência conforme urgência e volume." expected="A decisão “Configure mensagens e notificações” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste a nova preferência" description="Gere uma situação segura ou aguarde um evento para confirmar o comportamento." expected="A decisão “Teste a nova preferência” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Abra o menu do usuário" description="Localize Perfil e Preferências no menu associado à conta." expected="A decisão “Abra o menu do usuário” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise dados editáveis" description="Atualize somente informações autorizadas e confirme o que vem do sistema institucional." expected="A decisão “Revise dados editáveis” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Configure mensagens e notificações" description="Escolha canais e frequência conforme urgência e volume." expected="A decisão “Configure mensagens e notificações” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste a nova preferência" description="Gere uma situação segura ou aguarde um evento para confirmar o comportamento." expected="A decisão “Teste a nova preferência” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Configurar perfil e preferências — demonstração guiada" description="Revise dados permitidos, editor, fórum, mensagens e notificações." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Abra o menu do usuário","Revise dados editáveis","Configure mensagens e notificações","Teste a nova preferência"]' />

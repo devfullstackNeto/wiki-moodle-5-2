@@ -31,10 +31,10 @@ Confirme o endereço oficial e a mensagem exata. Teste janela privada apenas par
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Registre a mensagem e o horário" description="Copie o erro sem incluir senha, token ou código de autenticação." expected="A decisão “Registre a mensagem e o horário” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Confirme endereço e conta" description="Verifique domínio institucional, usuário correto e estado da conexão." expected="A decisão “Confirme endereço e conta” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Teste recuperação e outro navegador" description="Use somente os fluxos oficiais e uma janela privada quando apropriado." expected="A decisão “Teste recuperação e outro navegador” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Encaminhe evidências mínimas" description="Informe ambiente, horário, navegador e resultado dos testes ao suporte." expected="A decisão “Encaminhe evidências mínimas” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Registre a mensagem e o horário" description="Copie o erro sem incluir senha, token ou código de autenticação." expected="A decisão “Registre a mensagem e o horário” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Confirme endereço e conta" description="Verifique domínio institucional, usuário correto e estado da conexão." expected="A decisão “Confirme endereço e conta” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste recuperação e outro navegador" description="Use somente os fluxos oficiais e uma janela privada quando apropriado." expected="A decisão “Teste recuperação e outro navegador” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Encaminhe evidências mínimas" description="Informe ambiente, horário, navegador e resultado dos testes ao suporte." expected="A decisão “Encaminhe evidências mínimas” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Resolver problemas de acesso — demonstração guiada" description="Separe endereço, autenticação, vínculo, bloqueio e navegador." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Registre a mensagem e o horário","Confirme endereço e conta","Teste recuperação e outro navegador","Encaminhe evidências mínimas"]' />

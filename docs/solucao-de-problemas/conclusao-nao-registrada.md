@@ -31,10 +31,10 @@ Verifique visualização, envio, nota de aprovação, marcação manual e tarefa
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Leia a condição exata" description="Confirme o que precisa ser visualizado, enviado, publicado ou avaliado." expected="A decisão “Leia a condição exata” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Verifique evidência e nota" description="Compare tentativa, envio, nota para aprovação e visibilidade." expected="A decisão “Verifique evidência e nota” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Considere processamento agendado" description="Aguarde o intervalo previsto e verifique a rotina responsável." expected="A decisão “Considere processamento agendado” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Revise substituições no relatório" description="Identifique estado manual e registre correção autorizada." expected="A decisão “Revise substituições no relatório” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Leia a condição exata" description="Confirme o que precisa ser visualizado, enviado, publicado ou avaliado." expected="A decisão “Leia a condição exata” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Verifique evidência e nota" description="Compare tentativa, envio, nota para aprovação e visibilidade." expected="A decisão “Verifique evidência e nota” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Considere processamento agendado" description="Aguarde o intervalo previsto e verifique a rotina responsável." expected="A decisão “Considere processamento agendado” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise substituições no relatório" description="Identifique estado manual e registre correção autorizada." expected="A decisão “Revise substituições no relatório” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Resolver conclusão não registrada — demonstração guiada" description="Compare o comportamento com cada critério configurado." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Leia a condição exata","Verifique evidência e nota","Considere processamento agendado","Revise substituições no relatório"]' />

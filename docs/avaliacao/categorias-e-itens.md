@@ -32,10 +32,10 @@ Categorias agrupam itens e calculam totais. Itens manuais servem para avaliaçõ
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Liste as avaliações do curso" description="Relacione cada atividade a um único item de nota esperado." expected="A decisão “Liste as avaliações do curso” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Crie categorias com finalidade" description="Agrupe itens apenas quando houver subtotal ou regra compartilhada." expected="A decisão “Crie categorias com finalidade” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Mova e ordene os itens" description="Faça a estrutura acompanhar o plano apresentado à turma." expected="A decisão “Mova e ordene os itens” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Revise itens manuais e vinculados" description="Identifique origem, nota máxima, peso e visibilidade de cada item." expected="A decisão “Revise itens manuais e vinculados” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Liste as avaliações do curso" description="Relacione cada atividade a um único item de nota esperado." expected="A decisão “Liste as avaliações do curso” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Crie categorias com finalidade" description="Agrupe itens apenas quando houver subtotal ou regra compartilhada." expected="A decisão “Crie categorias com finalidade” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Mova e ordene os itens" description="Faça a estrutura acompanhar o plano apresentado à turma." expected="A decisão “Mova e ordene os itens” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise itens manuais e vinculados" description="Identifique origem, nota máxima, peso e visibilidade de cada item." expected="A decisão “Revise itens manuais e vinculados” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Organizar categorias e itens de nota — demonstração guiada" description="Estruture avaliações online e externas sem duplicar registros." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Liste as avaliações do curso","Crie categorias com finalidade","Mova e ordene os itens","Revise itens manuais e vinculados"]' />

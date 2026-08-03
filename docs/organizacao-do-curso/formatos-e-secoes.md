@@ -32,10 +32,10 @@ Escolha entre os formatos habilitados e dê nomes descritivos às seções. Subs
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Mapeie unidades e marcos" description="Defina como semanas ou temas representam o percurso." expected="A decisão “Mapeie unidades e marcos” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Escolha o formato do curso" description="Compare organização, navegação e quantidade de conteúdo por seção." expected="A decisão “Escolha o formato do curso” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Crie e nomeie seções" description="Use títulos informativos e resumos com próxima ação." expected="A decisão “Crie e nomeie seções” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste rolagem e índice" description="Confira orientação em computador, celular e retomada de estudo." expected="A decisão “Teste rolagem e índice” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Mapeie unidades e marcos" description="Defina como semanas ou temas representam o percurso." expected="A decisão “Mapeie unidades e marcos” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escolha o formato do curso" description="Compare organização, navegação e quantidade de conteúdo por seção." expected="A decisão “Escolha o formato do curso” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Crie e nomeie seções" description="Use títulos informativos e resumos com próxima ação." expected="A decisão “Crie e nomeie seções” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste rolagem e índice" description="Confira orientação em computador, celular e retomada de estudo." expected="A decisão “Teste rolagem e índice” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Organizar formatos e seções — demonstração guiada" description="Estruture o curso por tempo, tema ou fluxo real de aprendizagem." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Mapeie unidades e marcos","Escolha o formato do curso","Crie e nomeie seções","Teste rolagem e índice"]' />

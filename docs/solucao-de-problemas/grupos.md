@@ -31,10 +31,10 @@ Uma atividade pode usar grupo, agrupamento ou ambos. Teste com uma conta de cada
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Confirme membros e múltiplas associações" description="Revise quem está sem grupo ou pertence a mais de uma equipe." expected="A decisão “Confirme membros e múltiplas associações” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Leia modalidade e agrupamento" description="Compare grupos separados, visíveis e conjunto selecionado." expected="A decisão “Leia modalidade e agrupamento” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Diferencie interação de acesso" description="Verifique também restrições por grupo ou agrupamento." expected="A decisão “Diferencie interação de acesso” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste com duas contas fictícias" description="Compare o que cada grupo vê, publica e entrega." expected="A decisão “Teste com duas contas fictícias” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Confirme membros e múltiplas associações" description="Revise quem está sem grupo ou pertence a mais de uma equipe." expected="A decisão “Confirme membros e múltiplas associações” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Leia modalidade e agrupamento" description="Compare grupos separados, visíveis e conjunto selecionado." expected="A decisão “Leia modalidade e agrupamento” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Diferencie interação de acesso" description="Verifique também restrições por grupo ou agrupamento." expected="A decisão “Diferencie interação de acesso” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste com duas contas fictícias" description="Compare o que cada grupo vê, publica e entrega." expected="A decisão “Teste com duas contas fictícias” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Resolver problemas com grupos — demonstração guiada" description="Confira membros, modalidade, agrupamento, restrição e forçamento do curso." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Confirme membros e múltiplas associações","Leia modalidade e agrupamento","Diferencie interação de acesso","Teste com duas contas fictícias"]' />

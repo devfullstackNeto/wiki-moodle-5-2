@@ -31,10 +31,10 @@ Inclua curso, página, perfil, horário, ação, resultado esperado, mensagem e 
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Descreva o objetivo e o sintoma" description="Explique o que tentava fazer, resultado esperado e resultado observado." expected="A decisão “Descreva o objetivo e o sintoma” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Reúna contexto mínimo" description="Informe curso, atividade, horário, navegador e perfil sem enviar credenciais." expected="A decisão “Reúna contexto mínimo” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Produza captura segura" description="Oculte nomes, notas, e-mails, endereços e qualquer dado desnecessário." expected="A decisão “Produza captura segura” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Registre testes já realizados" description="Liste passos e resultados para evitar repetição e acelerar o diagnóstico." expected="A decisão “Registre testes já realizados” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Descreva o objetivo e o sintoma" description="Explique o que tentava fazer, resultado esperado e resultado observado." expected="A decisão “Descreva o objetivo e o sintoma” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Reúna contexto mínimo" description="Informe curso, atividade, horário, navegador e perfil sem enviar credenciais." expected="A decisão “Reúna contexto mínimo” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Produza captura segura" description="Oculte nomes, notas, e-mails, endereços e qualquer dado desnecessário." expected="A decisão “Produza captura segura” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Registre testes já realizados" description="Liste passos e resultados para evitar repetição e acelerar o diagnóstico." expected="A decisão “Registre testes já realizados” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Solicitar suporte com informações úteis — demonstração guiada" description="Envie contexto suficiente sem senha ou excesso de dados pessoais." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Descreva o objetivo e o sintoma","Reúna contexto mínimo","Produza captura segura","Registre testes já realizados"]' />

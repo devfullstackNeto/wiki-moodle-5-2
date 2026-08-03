@@ -32,10 +32,10 @@ Cada atividade registra dados diferentes. Não existe um menu universal chamado 
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Defina qual atividade investigar" description="Comece por uma pergunta sobre uso, envio, tentativa ou resultado." expected="A decisão “Defina qual atividade investigar” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Abra o relatório da própria atividade" description="Use os filtros e estados específicos em vez de um relatório genérico." expected="A decisão “Abra o relatório da própria atividade” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Compare eventos e produto" description="Relacione acesso com publicação, envio, resposta, nota ou feedback." expected="A decisão “Compare eventos e produto” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Registre limite e encaminhamento" description="Explique o que o relatório não comprova e qual ação será tomada." expected="A decisão “Registre limite e encaminhamento” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina qual atividade investigar" description="Comece por uma pergunta sobre uso, envio, tentativa ou resultado." expected="A decisão “Defina qual atividade investigar” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Abra o relatório da própria atividade" description="Use os filtros e estados específicos em vez de um relatório genérico." expected="A decisão “Abra o relatório da própria atividade” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Compare eventos e produto" description="Relacione acesso com publicação, envio, resposta, nota ou feedback." expected="A decisão “Compare eventos e produto” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Registre limite e encaminhamento" description="Explique o que o relatório não comprova e qual ação será tomada." expected="A decisão “Registre limite e encaminhamento” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Consultar relatórios de atividades — demonstração guiada" description="Use resultados próprios de Tarefa, Questionário, SCORM e outros módulos." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina qual atividade investigar","Abra o relatório da própria atividade","Compare eventos e produto","Registre limite e encaminhamento"]' />

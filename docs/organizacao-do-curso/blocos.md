@@ -32,10 +32,10 @@ Blocos aparecem na gaveta, laterais ou Painel conforme tema. Moodle 5.2 lista bl
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Defina a função do bloco" description="Escolha informação que precisa permanecer visível fora do conteúdo central." expected="A decisão “Defina a função do bloco” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Adicione no contexto correto" description="Ative edição e selecione o bloco permitido pelo ambiente." expected="A decisão “Adicione no contexto correto” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Configure posição e visibilidade" description="Revise página, região, peso e público conforme as opções disponíveis." expected="A decisão “Configure posição e visibilidade” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste em diferentes telas" description="Garanta que o bloco não esconda conteúdo nem dependa de coluna ausente no celular." expected="A decisão “Teste em diferentes telas” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina a função do bloco" description="Escolha informação que precisa permanecer visível fora do conteúdo central." expected="A decisão “Defina a função do bloco” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Adicione no contexto correto" description="Ative edição e selecione o bloco permitido pelo ambiente." expected="A decisão “Adicione no contexto correto” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Configure posição e visibilidade" description="Revise página, região, peso e público conforme as opções disponíveis." expected="A decisão “Configure posição e visibilidade” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste em diferentes telas" description="Garanta que o bloco não esconda conteúdo nem dependa de coluna ausente no celular." expected="A decisão “Teste em diferentes telas” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Usar blocos com propósito — demonstração guiada" description="Escolha blocos por contexto sem criar uma página para cada opção." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina a função do bloco","Adicione no contexto correto","Configure posição e visibilidade","Teste em diferentes telas"]' />

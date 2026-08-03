@@ -32,10 +32,10 @@ Backup cria pacote; restauração usa um pacote em destino definido; redefiniç�
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Defina o escopo do backup" description="Decida se precisa de atividades, blocos, banco de questões e dados de usuários autorizados." expected="A decisão “Defina o escopo do backup” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Gere e revise o arquivo" description="Percorra as etapas, confira o resumo e aguarde a conclusão." expected="A decisão “Gere e revise o arquivo” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Armazene de forma protegida" description="Baixe somente quando necessário e aplique retenção institucional." expected="A decisão “Armazene de forma protegida” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste a restauração" description="Use curso de teste e confira estrutura, links, questões, notas e dados incluídos." expected="A decisão “Teste a restauração” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina o escopo do backup" description="Decida se precisa de atividades, blocos, banco de questões e dados de usuários autorizados." expected="A decisão “Defina o escopo do backup” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Gere e revise o arquivo" description="Percorra as etapas, confira o resumo e aguarde a conclusão." expected="A decisão “Gere e revise o arquivo” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Armazene de forma protegida" description="Baixe somente quando necessário e aplique retenção institucional." expected="A decisão “Armazene de forma protegida” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste a restauração" description="Use curso de teste e confira estrutura, links, questões, notas e dados incluídos." expected="A decisão “Teste a restauração” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Fazer backup e restauração — demonstração guiada" description="Escolha entre cópia, restauração e redefinição sem comprometer dados." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina o escopo do backup","Gere e revise o arquivo","Armazene de forma protegida","Teste a restauração"]' />

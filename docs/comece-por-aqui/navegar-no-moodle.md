@@ -31,10 +31,10 @@ A navegação combina cabeçalho, Meus cursos, índice do curso e navegação co
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Localize o Painel e Meus cursos" description="Diferencie visão geral pessoal da página de cada curso." expected="A decisão “Localize o Painel e Meus cursos” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Reconheça índice e navegação" description="Use seções, trilha e controles anterior e próximo para manter contexto." expected="A decisão “Reconheça índice e navegação” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Encontre calendário e notificações" description="Confira prazos e mensagens sem depender apenas de e-mail." expected="A decisão “Encontre calendário e notificações” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Retome uma atividade" description="Volte ao curso e identifique estado, conclusão e próxima ação." expected="A decisão “Retome uma atividade” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Localize o Painel e Meus cursos" description="Diferencie visão geral pessoal da página de cada curso." expected="A decisão “Localize o Painel e Meus cursos” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Reconheça índice e navegação" description="Use seções, trilha e controles anterior e próximo para manter contexto." expected="A decisão “Reconheça índice e navegação” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Encontre calendário e notificações" description="Confira prazos e mensagens sem depender apenas de e-mail." expected="A decisão “Encontre calendário e notificações” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Retome uma atividade" description="Volte ao curso e identifique estado, conclusão e próxima ação." expected="A decisão “Retome uma atividade” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Navegar no Moodle — demonstração guiada" description="Localize cursos, índice, atividades, notas e menu do usuário." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Localize o Painel e Meus cursos","Reconheça índice e navegação","Encontre calendário e notificações","Retome uma atividade"]' />

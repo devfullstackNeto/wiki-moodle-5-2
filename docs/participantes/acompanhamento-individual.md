@@ -32,10 +32,10 @@ Nenhum relatório isolado explica a aprendizagem. Verifique dados, converse com 
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Defina a pergunta de acompanhamento" description="Escolha qual ação ou dificuldade precisa ser compreendida." expected="A decisão “Defina a pergunta de acompanhamento” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Consulte evidências pertinentes" description="Combine participação, conclusão, entregas, notas e comunicação autorizada." expected="A decisão “Consulte evidências pertinentes” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Compare contexto e período" description="Evite interpretar um evento isolado fora do prazo ou da atividade." expected="A decisão “Compare contexto e período” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Registre a próxima ação" description="Faça contato respeitoso, ofereça suporte e limite o compartilhamento." expected="A decisão “Registre a próxima ação” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina a pergunta de acompanhamento" description="Escolha qual ação ou dificuldade precisa ser compreendida." expected="A decisão “Defina a pergunta de acompanhamento” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Consulte evidências pertinentes" description="Combine participação, conclusão, entregas, notas e comunicação autorizada." expected="A decisão “Consulte evidências pertinentes” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Compare contexto e período" description="Evite interpretar um evento isolado fora do prazo ou da atividade." expected="A decisão “Compare contexto e período” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Registre a próxima ação" description="Faça contato respeitoso, ofereça suporte e limite o compartilhamento." expected="A decisão “Registre a próxima ação” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Acompanhar um estudante — demonstração guiada" description="Combine participação, conclusão, notas e contexto com intervenção humana." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina a pergunta de acompanhamento","Consulte evidências pertinentes","Compare contexto e período","Registre a próxima ação"]' />

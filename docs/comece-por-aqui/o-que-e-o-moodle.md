@@ -31,10 +31,10 @@ O Moodle organiza aprendizagem em cursos. Recursos apresentam materiais; ativida
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Reconheça o espaço institucional" description="Diferencie o Moodle oficial de páginas externas e ambientes de teste." expected="A decisão “Reconheça o espaço institucional” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Distinga recurso e atividade" description="Separe conteúdo para consulta de interação que registra participação." expected="A decisão “Distinga recurso e atividade” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Identifique seu papel" description="Observe como permissões alteram edição, avaliação e visualização." expected="A decisão “Identifique seu papel” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Escolha uma primeira tarefa" description="Use a busca do portal para abrir uma orientação compatível com seu objetivo." expected="A decisão “Escolha uma primeira tarefa” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Reconheça o espaço institucional" description="Diferencie o Moodle oficial de páginas externas e ambientes de teste." expected="A decisão “Reconheça o espaço institucional” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Distinga recurso e atividade" description="Separe conteúdo para consulta de interação que registra participação." expected="A decisão “Distinga recurso e atividade” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Identifique seu papel" description="Observe como permissões alteram edição, avaliação e visualização." expected="A decisão “Identifique seu papel” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escolha uma primeira tarefa" description="Use a busca do portal para abrir uma orientação compatível com seu objetivo." expected="A decisão “Escolha uma primeira tarefa” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="O que é o Moodle — demonstração guiada" description="Entenda curso, recurso, atividade, bloco e papel sem depender da aparência do tema." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Reconheça o espaço institucional","Distinga recurso e atividade","Identifique seu papel","Escolha uma primeira tarefa"]' />

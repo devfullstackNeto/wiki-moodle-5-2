@@ -32,10 +32,10 @@ Questões vivem em contextos e categorias. Nome, versão, status e tags ajudam a
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Defina a arquitetura das categorias" description="Separe questões por finalidade, área e nível de reutilização." expected="A decisão “Defina a arquitetura das categorias” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Crie e identifique as questões" description="Use nomes internos claros, enunciado completo, resposta, nota e feedback." expected="A decisão “Crie e identifique as questões” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Revise versões e estado" description="Confirme a versão usada e evite editar sem avaliar tentativas existentes." expected="A decisão “Revise versões e estado” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Pré-visualize antes de reutilizar" description="Teste cada questão e suas variações fora da avaliação real." expected="A decisão “Pré-visualize antes de reutilizar” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina a arquitetura das categorias" description="Separe questões por finalidade, área e nível de reutilização." expected="A decisão “Defina a arquitetura das categorias” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Crie e identifique as questões" description="Use nomes internos claros, enunciado completo, resposta, nota e feedback." expected="A decisão “Crie e identifique as questões” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise versões e estado" description="Confirme a versão usada e evite editar sem avaliar tentativas existentes." expected="A decisão “Revise versões e estado” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Pré-visualize antes de reutilizar" description="Teste cada questão e suas variações fora da avaliação real." expected="A decisão “Pré-visualize antes de reutilizar” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Organizar o banco de questões — demonstração guiada" description="Crie categorias, versões e questões reutilizáveis no contexto adequado." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina a arquitetura das categorias","Crie e identifique as questões","Revise versões e estado","Pré-visualize antes de reutilizar"]' />

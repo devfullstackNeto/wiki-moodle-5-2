@@ -32,10 +32,10 @@ Diga onde cada tipo de mensagem será publicado e o prazo de resposta. Engajamen
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Declare presença e tempo de resposta" description="Explique canais, horários, prioridades e expectativa realista." expected="A decisão “Declare presença e tempo de resposta” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Escreva chamadas para ação" description="Diga o que fazer, onde, até quando e como obter ajuda." expected="A decisão “Escreva chamadas para ação” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Distribua oportunidades de participação" description="Combine formatos síncronos, assíncronos e alternativas acessíveis." expected="A decisão “Distribua oportunidades de participação” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Revise sinais de acompanhamento" description="Use evidências com cautela e faça contato sem julgamento antecipado." expected="A decisão “Revise sinais de acompanhamento” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Declare presença e tempo de resposta" description="Explique canais, horários, prioridades e expectativa realista." expected="A decisão “Declare presença e tempo de resposta” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escreva chamadas para ação" description="Diga o que fazer, onde, até quando e como obter ajuda." expected="A decisão “Escreva chamadas para ação” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Distribua oportunidades de participação" description="Combine formatos síncronos, assíncronos e alternativas acessíveis." expected="A decisão “Distribua oportunidades de participação” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise sinais de acompanhamento" description="Use evidências com cautela e faça contato sem julgamento antecipado." expected="A decisão “Revise sinais de acompanhamento” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Comunicar e promover engajamento — demonstração guiada" description="Combine presença docente, escolha, retorno e expectativa realista." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Declare presença e tempo de resposta","Escreva chamadas para ação","Distribua oportunidades de participação","Revise sinais de acompanhamento"]' />

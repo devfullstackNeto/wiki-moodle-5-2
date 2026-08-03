@@ -32,10 +32,10 @@ O fluxo depende da atividade. Antes de intervir, identifique o estado atual, pre
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Defina a função da nova tentativa" description="Diferencie correção, recuperação, prática e reenvio." expected="A decisão “Defina a função da nova tentativa” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Escreva feedback acionável" description="Aponte evidência, melhoria necessária e próxima ação." expected="A decisão “Escreva feedback acionável” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Configure reabertura e revisão" description="Escolha quando o estudante poderá tentar novamente e o que verá." expected="A decisão “Configure reabertura e revisão” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste o ciclo completo" description="Simule tentativa, devolutiva, nova tentativa e resultado final." expected="A decisão “Teste o ciclo completo” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina a função da nova tentativa" description="Diferencie correção, recuperação, prática e reenvio." expected="A decisão “Defina a função da nova tentativa” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escreva feedback acionável" description="Aponte evidência, melhoria necessária e próxima ação." expected="A decisão “Escreva feedback acionável” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Configure reabertura e revisão" description="Escolha quando o estudante poderá tentar novamente e o que verá." expected="A decisão “Configure reabertura e revisão” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste o ciclo completo" description="Simule tentativa, devolutiva, nova tentativa e resultado final." expected="A decisão “Teste o ciclo completo” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Gerenciar feedback e tentativas — demonstração guiada" description="Use nova tentativa, reabertura e feedback sem apagar o histórico." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina a função da nova tentativa","Escreva feedback acionável","Configure reabertura e revisão","Teste o ciclo completo"]' />

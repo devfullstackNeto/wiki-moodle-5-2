@@ -32,10 +32,10 @@ Grupo reúne pessoas; agrupamento reúne grupos. Modalidade de grupo define inte
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Defina os arranjos necessários" description="Liste equipes, turmas e combinações usadas em cada atividade." expected="A decisão “Defina os arranjos necessários” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Crie grupos e confira membros" description="Use nomes estáveis e revise participantes sem grupo." expected="A decisão “Crie grupos e confira membros” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Monte agrupamentos" description="Associe conjuntos de grupos para diferentes contextos." expected="A decisão “Monte agrupamentos” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Aplique e teste nas atividades" description="Compare grupos separados, visíveis e restrição de acesso." expected="A decisão “Aplique e teste nas atividades” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina os arranjos necessários" description="Liste equipes, turmas e combinações usadas em cada atividade." expected="A decisão “Defina os arranjos necessários” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Crie grupos e confira membros" description="Use nomes estáveis e revise participantes sem grupo." expected="A decisão “Crie grupos e confira membros” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Monte agrupamentos" description="Associe conjuntos de grupos para diferentes contextos." expected="A decisão “Monte agrupamentos” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Aplique e teste nas atividades" description="Compare grupos separados, visíveis e restrição de acesso." expected="A decisão “Aplique e teste nas atividades” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Trabalhar com grupos e agrupamentos — demonstração guiada" description="Separe participantes e direcione atividades a conjuntos de grupos." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina os arranjos necessários","Crie grupos e confira membros","Monte agrupamentos","Aplique e teste nas atividades"]' />

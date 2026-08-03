@@ -31,10 +31,10 @@ Confirme o endereço oficial, use a autenticação indicada e nunca compartilhe 
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Confirme o endereço oficial" description="Use o link divulgado pela instituição e verifique domínio e conexão segura." expected="A decisão “Confirme o endereço oficial” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Entre pelo método autorizado" description="Informe credenciais somente na página institucional e conclua autenticação adicional." expected="A decisão “Entre pelo método autorizado” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Reconheça o painel inicial" description="Confirme nome da conta, cursos esperados e avisos de acesso." expected="A decisão “Reconheça o painel inicial” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Registre um problema com segurança" description="Anote horário, mensagem e navegador sem enviar senha ou token." expected="A decisão “Registre um problema com segurança” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Confirme o endereço oficial" description="Use o link divulgado pela instituição e verifique domínio e conexão segura." expected="A decisão “Confirme o endereço oficial” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Entre pelo método autorizado" description="Informe credenciais somente na página institucional e conclua autenticação adicional." expected="A decisão “Entre pelo método autorizado” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Reconheça o painel inicial" description="Confirme nome da conta, cursos esperados e avisos de acesso." expected="A decisão “Reconheça o painel inicial” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Registre um problema com segurança" description="Anote horário, mensagem e navegador sem enviar senha ou token." expected="A decisão “Registre um problema com segurança” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Acessar a plataforma — demonstração guiada" description="Use o endereço institucional ou a integração autorizada sem expor credenciais." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Confirme o endereço oficial","Entre pelo método autorizado","Reconheça o painel inicial","Registre um problema com segurança"]' />

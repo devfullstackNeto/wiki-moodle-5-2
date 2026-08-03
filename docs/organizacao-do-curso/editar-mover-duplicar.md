@@ -32,10 +32,10 @@ O modo de edição expõe ações de mover, duplicar e edição em massa. Depois
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Ative a edição e localize o item" description="Confirme título, seção e atividade antes de agir." expected="A decisão “Ative a edição e localize o item” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Escolha editar, mover ou duplicar" description="Use a ação mínima e preserve o original quando precisar comparar." expected="A decisão “Escolha editar, mover ou duplicar” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Revise a cópia ou nova posição" description="Atualize nome, datas, restrições, grupos e conclusão." expected="A decisão “Revise a cópia ou nova posição” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Teste links e sequência" description="Confirme que o estudante encontra somente a versão correta." expected="A decisão “Teste links e sequência” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Ative a edição e localize o item" description="Confirme título, seção e atividade antes de agir." expected="A decisão “Ative a edição e localize o item” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Escolha editar, mover ou duplicar" description="Use a ação mínima e preserve o original quando precisar comparar." expected="A decisão “Escolha editar, mover ou duplicar” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise a cópia ou nova posição" description="Atualize nome, datas, restrições, grupos e conclusão." expected="A decisão “Revise a cópia ou nova posição” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste links e sequência" description="Confirme que o estudante encontra somente a versão correta." expected="A decisão “Teste links e sequência” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Editar, mover e duplicar conteúdos — demonstração guiada" description="Reorganize itens sem perder contexto nem publicar cópias incompletas." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Ative a edição e localize o item","Escolha editar, mover ou duplicar","Revise a cópia ou nova posição","Teste links e sequência"]' />

@@ -31,10 +31,10 @@ Teste fora da conta de autor. Se o provedor bloqueia incorporação, forneça li
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Identifique o tipo de vídeo" description="Diferencie arquivo, link e incorporação externa." expected="A decisão “Identifique o tipo de vídeo” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Teste conexão, navegador e permissão" description="Compare janela privada, outro dispositivo e política de conteúdo." expected="A decisão “Teste conexão, navegador e permissão” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Verifique legenda e alternativa" description="Garanta acesso ao conteúdo mesmo quando a reprodução falha." expected="A decisão “Verifique legenda e alternativa” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Revise privacidade e provedor" description="Confirme consentimento, cookies, domínio autorizado e disponibilidade." expected="A decisão “Revise privacidade e provedor” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Identifique o tipo de vídeo" description="Diferencie arquivo, link e incorporação externa." expected="A decisão “Identifique o tipo de vídeo” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Teste conexão, navegador e permissão" description="Compare janela privada, outro dispositivo e política de conteúdo." expected="A decisão “Teste conexão, navegador e permissão” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Verifique legenda e alternativa" description="Garanta acesso ao conteúdo mesmo quando a reprodução falha." expected="A decisão “Verifique legenda e alternativa” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Revise privacidade e provedor" description="Confirme consentimento, cookies, domínio autorizado e disponibilidade." expected="A decisão “Revise privacidade e provedor” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Resolver problemas com vídeo — demonstração guiada" description="Verifique acesso, provedor, formato, legenda, rede e bloqueio de incorporação." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Identifique o tipo de vídeo","Teste conexão, navegador e permissão","Verifique legenda e alternativa","Revise privacidade e provedor"]' />

@@ -31,10 +31,10 @@ Moodle 5.2 atualiza o seletor de atividades com descrições mais claras, melhor
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Identifique a versão do ambiente" description="Consulte a informação disponível ou solicite confirmação à equipe responsável." expected="A decisão “Identifique a versão do ambiente” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Compare mudanças relevantes" description="Priorize navegação, conclusão, atividades e fluxos usados pela instituição." expected="A decisão “Compare mudanças relevantes” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Valide tema e idioma" description="Confirme onde os controles aparecem no pacote e no tema implantados." expected="A decisão “Valide tema e idioma” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Atualize orientações locais" description="Registre diferenças antes de produzir prints ou vídeos." expected="A decisão “Atualize orientações locais” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Identifique a versão do ambiente" description="Consulte a informação disponível ou solicite confirmação à equipe responsável." expected="A decisão “Identifique a versão do ambiente” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Compare mudanças relevantes" description="Priorize navegação, conclusão, atividades e fluxos usados pela instituição." expected="A decisão “Compare mudanças relevantes” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Valide tema e idioma" description="Confirme onde os controles aparecem no pacote e no tema implantados." expected="A decisão “Valide tema e idioma” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Atualize orientações locais" description="Registre diferenças antes de produzir prints ou vídeos." expected="A decisão “Atualize orientações locais” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Conhecer o Moodle 5.2 — demonstração guiada" description="Reconheça a navegação e as mudanças relevantes da versão 5.2." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Identifique a versão do ambiente","Compare mudanças relevantes","Valide tema e idioma","Atualize orientações locais"]' />

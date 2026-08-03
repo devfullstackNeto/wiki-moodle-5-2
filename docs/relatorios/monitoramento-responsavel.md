@@ -32,10 +32,10 @@ Defina finalidade, acesso, retenção e ação antes de consultar dados. Evite r
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Defina finalidade legítima" description="Explique por que o acompanhamento é necessário e quem será beneficiado." expected="A decisão “Defina finalidade legítima” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Use evidências proporcionais" description="Colete somente eventos e resultados relacionados à pergunta." expected="A decisão “Use evidências proporcionais” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Evite inferências automáticas" description="Não transforme ausência de clique em desinteresse ou dificuldade confirmada." expected="A decisão “Evite inferências automáticas” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Comunique com transparência" description="Informe uso dos dados, limite acesso e ofereça canal de esclarecimento." expected="A decisão “Comunique com transparência” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Defina finalidade legítima" description="Explique por que o acompanhamento é necessário e quem será beneficiado." expected="A decisão “Defina finalidade legítima” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Use evidências proporcionais" description="Colete somente eventos e resultados relacionados à pergunta." expected="A decisão “Use evidências proporcionais” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Evite inferências automáticas" description="Não transforme ausência de clique em desinteresse ou dificuldade confirmada." expected="A decisão “Evite inferências automáticas” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Comunique com transparência" description="Informe uso dos dados, limite acesso e ofereça canal de esclarecimento." expected="A decisão “Comunique com transparência” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Monitorar com responsabilidade — demonstração guiada" description="Use dados mínimos, contexto e contato pedagógico para apoiar estudantes." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Defina finalidade legítima","Use evidências proporcionais","Evite inferências automáticas","Comunique com transparência"]' />

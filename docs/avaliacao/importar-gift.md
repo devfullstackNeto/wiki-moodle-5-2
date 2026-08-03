@@ -32,10 +32,10 @@ GIFT importa vários tipos de questão em texto. Faça primeiro uma categoria de
 ## Amplie esta orientação
 
 <StepByStep>
-  <StepItem number="1" title="Prepare uma categoria de destino" description="Crie a categoria antes da importação e registre a finalidade do lote." expected="A decisão “Prepare uma categoria de destino” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="2" title="Valide a sintaxe GIFT" description="Revise delimitadores, respostas, feedback, codificação e caracteres especiais." expected="A decisão “Valide a sintaxe GIFT” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="3" title="Importe um lote pequeno" description="Use primeiro questões fictícias para identificar erros de interpretação." expected="A decisão “Importe um lote pequeno” foi registrada e conferida no perfil destinatário." />
-  <StepItem number="4" title="Pré-visualize cada questão" description="Corrija enunciado, nota e feedback antes de inserir em Questionário." expected="A decisão “Pré-visualize cada questão” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Prepare uma categoria de destino" description="Crie a categoria antes da importação e registre a finalidade do lote." expected="A decisão “Prepare uma categoria de destino” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Valide a sintaxe GIFT" description="Revise delimitadores, respostas, feedback, codificação e caracteres especiais." expected="A decisão “Valide a sintaxe GIFT” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Importe um lote pequeno" description="Use primeiro questões fictícias para identificar erros de interpretação." expected="A decisão “Importe um lote pequeno” foi registrada e conferida no perfil destinatário." />
+  <StepItem title="Pré-visualize cada questão" description="Corrija enunciado, nota e feedback antes de inserir em Questionário." expected="A decisão “Pré-visualize cada questão” foi registrada e conferida no perfil destinatário." />
 </StepByStep>
 
 <VideoSection title="Importar questões em GIFT — demonstração guiada" description="Valide sintaxe, codificação e respostas antes de usar questões importadas." duration="6–9 minutos" audience="Público indicado na página" status="em-producao" objective="Demonstrar o procedimento em um curso de teste, sem dados pessoais." :script='["Prepare uma categoria de destino","Valide a sintaxe GIFT","Importe um lote pequeno","Pré-visualize cada questão"]' />
