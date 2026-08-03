@@ -19,6 +19,9 @@ watch(() => route.path, async () => { await nextTick(); updateMainLandmark() })
 
 <template>
   <Layout>
+    <template #layout-top>
+      <SidebarToggle />
+    </template>
     <template #doc-before>
       <Breadcrumbs />
       <PageHero
@@ -37,6 +40,8 @@ watch(() => route.path, async () => { await nextTick(); updateMainLandmark() })
       <PageFeedback />
       <LastUpdated :date="frontmatter.lastReviewed" :status="frontmatter.status" />
     </template>
+    <template #layout-bottom>
+      <InstitutionalFooter />
+    </template>
   </Layout>
-  <InstitutionalFooter />
 </template>

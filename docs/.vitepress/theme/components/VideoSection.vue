@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, useId } from 'vue'
 import { withBase } from 'vitepress'
+import { useEditorialMode } from '../composables/useEditorialMode'
 
 type VideoProvider = 'youtube' | 'vimeo' | 'mp4' | 'institutional'
 
@@ -23,6 +24,7 @@ const props = defineProps<{
 }>()
 
 const consent = ref(false)
+const editorialMode = useEditorialMode()
 const sectionId = `video-${useId().replaceAll(':', '')}`
 
 const resolvedProvider = computed<VideoProvider>(() => {
@@ -74,7 +76,7 @@ const plannedTopics = computed(() => props.script?.length ? props.script : props
 </script>
 
 <template>
-  <section class="video-section" :aria-labelledby="sectionId">
+  <section v-if="isPublished || editorialMode" class="video-section" :aria-labelledby="sectionId">
     <div class="video-section__header">
       <div class="video-section__play" aria-hidden="true">▶</div>
       <div>

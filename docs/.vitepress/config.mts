@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { nav, sidebar } from './data/navigation'
 
 const siteUrl = (process.env.SITE_URL || 'https://devfullstackneto.github.io/wiki-moodle-5-2/').replace(/\/?$/, '/')
+const editorialMode = process.env.VITEPRESS_EDITORIAL_MODE === 'true'
 
 export default defineConfig({
   base: '/wiki-moodle-5-2/',
@@ -33,8 +34,10 @@ export default defineConfig({
       ['meta', { property: 'og:description', content: description }],
       ['meta', { property: 'og:url', content: canonical }]
     )
+    if (!editorialMode) delete pageData.frontmatter.status
   },
   themeConfig: {
+    editorialMode,
     logo: {
       light: '/branding/cread-ifmt-horizontal.jpeg',
       dark: '/branding/cread-ifmt-horizontal.jpeg',

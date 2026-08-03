@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useEditorialMode } from '../composables/useEditorialMode'
+
 defineProps<{
   id: string
   title: string
@@ -8,11 +10,12 @@ defineProps<{
   caption?: string
   framing?: string
 }>()
+const editorialMode = useEditorialMode()
 </script>
 <template>
-  <figure class="screenshot-placeholder" :class="{ 'screenshot-placeholder--image': src }" :data-screenshot-id="id">
+  <figure v-if="src || editorialMode" class="screenshot-placeholder" :class="{ 'screenshot-placeholder--image': src }" :data-screenshot-id="editorialMode ? id : undefined">
     <ImageZoom v-if="src" :src="src" :alt="alt" :caption="caption || title" />
-    <div v-else class="screenshot-placeholder__content">
+    <div v-else-if="editorialMode" class="screenshot-placeholder__content">
       <span class="screenshot-placeholder__status">Captura de tela em produção</span>
       <h3>{{ title }}</h3>
       <p class="screenshot-placeholder__description">{{ description }}</p>

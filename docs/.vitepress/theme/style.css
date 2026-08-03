@@ -135,6 +135,8 @@ body, #app, .Layout { max-width: 100%; overflow-x: clip; }
 .objective-card { display: grid; grid-template-columns: auto 1fr; gap: 1rem; margin: 1.5rem 0 2rem; padding: 1.35rem; border: 1px solid color-mix(in srgb, var(--portal-cyan) 35%, var(--portal-border)); border-radius: 18px; background: color-mix(in srgb, var(--vp-c-brand-soft) 60%, var(--vp-c-bg)); box-shadow: var(--portal-shadow); }
 .objective-card__mark { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 14px; background: var(--vp-c-brand-1); color: #fff; font-size: 1.45rem; }
 .objective-card h2 { margin: .2rem 0 .4rem; font-size: 1.25rem; }
+.objective-card .section-kicker, .objective-card__title { display: block; }
+.objective-card__title { margin: .15rem 0 .35rem; }
 .objective-card p:last-child { margin-bottom: 0; }
 .section-heading { max-width: 720px; margin-bottom: 1.2rem; }
 .section-heading h2 { margin: .25rem 0 .4rem; }
@@ -153,6 +155,7 @@ body, #app, .Layout { max-width: 100%; overflow-x: clip; }
 .step-image { max-width: 100%; margin: 1rem 0 0; }
 .step-image img { width: 100%; height: auto; }
 .screenshot-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 1rem; align-items: start; width: 100%; margin: 1.25rem 0; }
+.screenshot-gallery:empty, .screenshot-gallery:not(:has(> .screenshot-placeholder)) { display: none; margin: 0; }
 .screenshot-gallery > * { min-width: 0; }
 .screenshot-placeholder { border-color: color-mix(in srgb, var(--portal-cyan) 42%, var(--portal-border)); border-radius: 18px; background: var(--vp-c-bg); box-shadow: var(--portal-shadow); }
 .screenshot-placeholder__content { min-width: 0; max-width: 100%; height: auto; padding: clamp(1rem, 3vw, 1.35rem); color: var(--vp-c-text-1); overflow-wrap: anywhere; word-break: normal; }
@@ -215,6 +218,43 @@ body, #app, .Layout { max-width: 100%; overflow-x: clip; }
 .cread-footer__links { display: flex; flex-wrap: wrap; gap: .55rem 1rem; }
 .cread-footer a { color: #fff; text-underline-offset: 3px; }
 .cread-footer__note { margin: 0; padding: .9rem 1.25rem; border-top: 1px solid rgba(255,255,255,.16); color: #c8e7ce; text-align: center; font-size: .82rem; }
+.sidebar-toggle { display: none; }
+@media (min-width: 960px) {
+  .sidebar-toggle {
+    position: fixed;
+    z-index: calc(var(--vp-z-index-sidebar) + 1);
+    top: calc(var(--vp-nav-height) + 14px);
+    left: calc(var(--vp-sidebar-width) - 18px);
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--portal-border);
+    border-radius: 50%;
+    background: var(--vp-c-bg);
+    color: var(--vp-c-text-1);
+    box-shadow: var(--portal-shadow);
+    cursor: pointer;
+    font-size: 1.5rem;
+    line-height: 1;
+    transition: left .25s ease, background-color .25s ease, color .25s ease;
+  }
+  .sidebar-toggle:hover { background: var(--vp-c-brand-1); color: #fff; }
+  .sidebar-collapsed .sidebar-toggle { left: 14px; }
+  .sidebar-collapsed .VPSidebar { opacity: 0; visibility: hidden; transform: translateX(-100%); }
+  .sidebar-collapsed .VPContent.has-sidebar { padding-left: 0; }
+  .sidebar-collapsed .VPLocalNav.has-sidebar { padding-left: 0; }
+  .Layout:has(.VPContent.has-sidebar) .cread-footer { margin-left: var(--vp-sidebar-width); }
+  .sidebar-collapsed .Layout:has(.VPContent.has-sidebar) .cread-footer { margin-left: 0; }
+}
+@media (min-width: 1440px) {
+  .sidebar-toggle { left: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width) - 18px); }
+  .sidebar-collapsed .sidebar-toggle { left: max(14px, calc((100vw - var(--vp-layout-max-width)) / 2 + 14px)); }
+  .sidebar-collapsed .VPContent.has-sidebar { padding-right: calc((100vw - var(--vp-layout-max-width)) / 2); padding-left: calc((100vw - var(--vp-layout-max-width)) / 2); }
+  .sidebar-collapsed .VPLocalNav.has-sidebar { padding-left: calc((100vw - var(--vp-layout-max-width)) / 2); }
+  .Layout:has(.VPContent.has-sidebar) .cread-footer { margin-left: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width)); }
+  .sidebar-collapsed .Layout:has(.VPContent.has-sidebar) .cread-footer { margin-left: max(0px, calc((100vw - var(--vp-layout-max-width)) / 2)); margin-right: max(0px, calc((100vw - var(--vp-layout-max-width)) / 2)); }
+}
 @media (max-width: 640px) {
   .VPNavBarTitle .logo { height: 32px; max-width: 62vw; padding: 2px 4px; }
   .portal-hero { padding: 1.35rem; border-radius: 18px; }

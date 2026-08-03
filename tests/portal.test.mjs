@@ -42,7 +42,29 @@ test('não há scripts externos de analytics', () => {
 
 test('scripts solicitados estão documentados no package', () => {
   const pkg = JSON.parse(fs.readFileSync(path.join(projectRoot, 'package.json'), 'utf8'))
-  for (const name of ['dev','build','preview','lint','test','validate','validate-learning','check-links','audit-content']) assert.ok(pkg.scripts[name], `${name} ausente`)
+  for (const name of ['dev','dev:editorial','build','build:editorial','preview','lint','test','validate','validate-learning','check-links','audit-content','test:public-output']) assert.ok(pkg.scripts[name], `${name} ausente`)
+})
+
+test('modo editorial é centralizado e a publicação força o modo público', () => {
+  const config = fs.readFileSync(path.join(docsRoot, '.vitepress/config.mts'), 'utf8')
+  const workflow = fs.readFileSync(path.join(projectRoot, '.github/workflows/deploy-pages.yml'), 'utf8')
+  const base = path.join(docsRoot, '.vitepress/theme/components')
+  assert.match(config, /VITEPRESS_EDITORIAL_MODE === 'true'/)
+  assert.match(config, /editorialMode,/)
+  assert.match(workflow, /VITEPRESS_EDITORIAL_MODE:\s*'false'/)
+  for (const name of ['ValidationNotice', 'ScreenshotPlaceholder', 'VideoSection', 'LastUpdated']) {
+    const source = fs.readFileSync(path.join(base, `${name}.vue`), 'utf8')
+    assert.match(source, /useEditorialMode/)
+  }
+})
+
+test('barra lateral de desktop é recolhível, acessível e persistente', () => {
+  const toggle = fs.readFileSync(path.join(docsRoot, '.vitepress/theme/components/SidebarToggle.vue'), 'utf8')
+  const css = fs.readFileSync(path.join(docsRoot, '.vitepress/theme/style.css'), 'utf8')
+  for (const token of ['localStorage', 'aria-controls', 'aria-expanded', 'aria-label']) assert.match(toggle, new RegExp(token))
+  assert.match(css, /@media \(min-width: 960px\)/)
+  assert.match(css, /sidebar-collapsed \.VPContent\.has-sidebar/)
+  assert.match(css, /Layout:has\(\.VPContent\.has-sidebar\) \.cread-footer/)
 })
 
 test('componentes de aprendizagem aceitam conteúdo detalhado', () => {
